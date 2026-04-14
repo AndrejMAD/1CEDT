@@ -42,8 +42,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonPictures>CommonPicture.Загрузить</commonPictures>
+  <commonPictures>CommonPicture.Скачать</commonPictures>
   <commonModules>CommonModule.ИнформацияОПродавцеAPI</commonModules>
-  <commonModules>CommonModule.КлиентWB</commonModules>
+  <commonModules>CommonModule.КлиентAPI</commonModules>
   <commonModules>CommonModule.ПарсерJSON</commonModules>
   <catalogs>Catalog.Продавцы</catalogs>
   <enums>Enum.ВидHTTPЗапроса</enums>
