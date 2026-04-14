@@ -26,4 +26,18 @@
       <value>POST</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="3d426a09-ca54-45e0-b51e-88d38e7d7f4b">
+    <name>PATCH</name>
+    <synonym>
+      <key>ru</key>
+      <value>PATCH</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c352c59f-4750-4325-8455-c15122693139">
+    <name>DELETE</name>
+    <synonym>
+      <key>ru</key>
+      <value>DELETE</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
