@@ -47,7 +47,11 @@
   <commonModules>CommonModule.ИнформацияОПродавцеAPI</commonModules>
   <commonModules>CommonModule.КлиентAPI</commonModules>
   <commonModules>CommonModule.ПарсерJSON</commonModules>
+  <commonModules>CommonModule.ПреобразованиеЗначений</commonModules>
+  <commonModules>CommonModule.ПроверкаЗначенийКлиентСервер</commonModules>
+  <commonModules>CommonModule.ФинансовыеОтчетыAPI</commonModules>
   <catalogs>Catalog.Продавцы</catalogs>
+  <documents>Document.ОтчетРеализации</documents>
   <enums>Enum.ВидHTTPЗапроса</enums>
   <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
 </mdclass:Configuration>
