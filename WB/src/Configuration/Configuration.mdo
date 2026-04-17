@@ -50,6 +50,7 @@
   <commonModules>CommonModule.ПреобразованиеЗначений</commonModules>
   <commonModules>CommonModule.ПроверкаЗначенийКлиентСервер</commonModules>
   <commonModules>CommonModule.ФинансовыеОтчетыAPI</commonModules>
+  <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Продавцы</catalogs>
   <documents>Document.ОтчетРеализации</documents>
   <enums>Enum.ВидHTTPЗапроса</enums>
