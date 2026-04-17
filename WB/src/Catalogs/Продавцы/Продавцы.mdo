@@ -212,10 +212,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f2e66bca-784b-486c-be9b-0065257ea8dd">
-    <name>Сид</name>
+    <name>Ууид</name>
     <synonym>
       <key>ru</key>
-      <value>Сид</value>
+      <value>Ууид</value>
     </synonym>
     <type>
       <types>String</types>
