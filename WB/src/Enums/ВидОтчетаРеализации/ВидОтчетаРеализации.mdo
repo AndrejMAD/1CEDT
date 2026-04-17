@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3931c2e6-d129-4f0c-9b16-801250ced7af">
+  <producedTypes>
+    <refType typeId="cb04ac3f-92eb-4c74-be26-cbc10cba3e16" valueTypeId="d552b59f-38e0-44dd-bff8-e91a65745d1b"/>
+    <listType typeId="ca854077-2cc4-4376-8a03-fc4dea448fe5" valueTypeId="4e7467bd-eb1c-4321-95c1-32c07219e49b"/>
+    <managerType typeId="3963b241-3332-49da-81ab-1ee697698ce8" valueTypeId="590bcef1-d84d-4eaf-883e-a557ef9893ee"/>
+  </producedTypes>
+  <name>ВидОтчетаРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид отчета реализации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2b79078a-824b-403b-920d-74f22f403194">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0eab9461-2bf0-4558-9454-68fbaa3b18ab">
+    <name>Выкупы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выкупы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8689c573-c38e-4dcf-afde-3953530b3c8a">
+    <name>ВыкупыГрузия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выкупы (Грузия)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="929ac2c5-155b-4b21-9fca-0c2f3ea1ab28">
-  <name>ПреобразованиеЗначений</name>
+  <name>МаппингЗначений</name>
   <synonym>
     <key>ru</key>
-    <value>Преобразование значений</value>
+    <value>Маппинг значений</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>

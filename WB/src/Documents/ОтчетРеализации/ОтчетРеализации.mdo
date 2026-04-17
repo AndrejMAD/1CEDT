@@ -130,16 +130,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="32d33a12-5796-4ce9-bf11-9da36f75a169">
-    <name>ТипОтчета</name>
+    <name>ВидОтчета</name>
     <synonym>
       <key>ru</key>
-      <value>Тип отчета</value>
+      <value>Вид отчета</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-      </numberQualifiers>
+      <types>EnumRef.ВидОтчетаРеализации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

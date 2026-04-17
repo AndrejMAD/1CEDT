@@ -46,13 +46,14 @@
   <commonPictures>CommonPicture.Скачать</commonPictures>
   <commonModules>CommonModule.ИнформацияОПродавцеAPI</commonModules>
   <commonModules>CommonModule.КлиентAPI</commonModules>
+  <commonModules>CommonModule.МаппингЗначений</commonModules>
   <commonModules>CommonModule.ПарсерJSON</commonModules>
-  <commonModules>CommonModule.ПреобразованиеЗначений</commonModules>
   <commonModules>CommonModule.ПроверкаЗначенийКлиентСервер</commonModules>
   <commonModules>CommonModule.ФинансовыеОтчетыAPI</commonModules>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Продавцы</catalogs>
   <documents>Document.ОтчетРеализации</documents>
   <enums>Enum.ВидHTTPЗапроса</enums>
+  <enums>Enum.ВидОтчетаРеализации</enums>
   <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
 </mdclass:Configuration>
