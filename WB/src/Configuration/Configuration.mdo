@@ -47,13 +47,15 @@
   <commonModules>CommonModule.ИнформацияОПродавцеAPI</commonModules>
   <commonModules>CommonModule.КлиентAPI</commonModules>
   <commonModules>CommonModule.МаппингЗначений</commonModules>
+  <commonModules>CommonModule.ОбменДанными</commonModules>
   <commonModules>CommonModule.ПарсерJSON</commonModules>
   <commonModules>CommonModule.ПроверкаЗначенийКлиентСервер</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.ФинансовыеОтчетыAPI</commonModules>
+  <scheduledJobs>ScheduledJob.ЗагрузкаФинансовыхОтчетов</scheduledJobs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Продавцы</catalogs>
   <documents>Document.ОтчетРеализации</documents>
   <enums>Enum.ВидHTTPЗапроса</enums>
   <enums>Enum.ВидОтчетаРеализации</enums>
-  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
 </mdclass:Configuration>

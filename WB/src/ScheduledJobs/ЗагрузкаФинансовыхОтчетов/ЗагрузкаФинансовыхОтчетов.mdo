@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cc07349-ef18-4001-b722-815fd628ff0a">
+  <name>ЗагрузкаФинансовыхОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка финансовых отчетов</value>
+  </synonym>
+  <methodName>CommonModule.РегламентныеЗаданияСервер.ЗагрузкаФинансовыхОтчетов</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
