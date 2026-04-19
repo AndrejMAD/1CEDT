@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37039d94-71db-47e1-a250-7c348d04b846">
+  <producedTypes>
+    <objectType typeId="4ee40124-aa8f-403a-bd30-56f6c1e374be" valueTypeId="2c05642d-2578-4a05-9335-dfc160bd6022"/>
+    <refType typeId="6375d831-8c09-4d8a-bdba-ee14006732bd" valueTypeId="f116206c-deb9-429a-a75f-a7616bb941b8"/>
+    <selectionType typeId="9074b185-3e7d-4b28-953f-e60326223d7a" valueTypeId="76d8d911-7f7d-475a-bf97-d48b7be8ad93"/>
+    <listType typeId="fcf3a65d-8d3f-4dde-97da-fe4f5c80b406" valueTypeId="46695298-9161-4cdf-a3e8-d1a03c9b64e6"/>
+    <managerType typeId="3d35d771-a7ca-4b10-b5a1-dd076e9544ec" valueTypeId="b548132b-c3c4-4296-8d6e-c9efabe93357"/>
+  </producedTypes>
+  <name>СкладыWB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады WB</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СкладыWB.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СкладыWB.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>15</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.СкладыWB.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="92939603-72ea-4d5f-829a-c6773d583737">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5786770-64b9-4203-979a-e79e24478b80">
+    <name>РежимРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b8ad41d-d187-467b-a064-48e5ec43ae8d">
+    <name>ДоступноНазначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступно назначение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9fb9c4fd-7fbf-4721-921b-2d39bcd4f3c5">
+    <name>ДоступенТранзит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступен транзит</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c02fb4e7-1dc2-45cd-a679-489b668647df">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
