@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acc18637-14e9-426f-b6ee-5a6dc3d024ad">
+  <producedTypes>
+    <refType typeId="22a54f98-4536-46e7-ba1a-28984ac52eb6" valueTypeId="7350a2c4-1194-414a-9961-142ce63367d0"/>
+    <listType typeId="d31bcd5d-188a-40a9-9dd4-a10c55622cca" valueTypeId="be350d68-200f-4587-a8c0-c114efd34f1f"/>
+    <managerType typeId="a4692368-8533-4876-9be0-9f1ea8d68bb5" valueTypeId="5968ae6f-1d5d-4c6f-b47b-eb9da177627e"/>
+  </producedTypes>
+  <name>ТипыМедиафайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы медиафайлов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dcc8c552-6e57-4391-ade3-4d762d8d11ce">
+    <name>ФотоБольшое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото большое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45e7093d-1f40-42f4-9419-7185d5a726e3">
+    <name>ФотоМалое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото малое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44324ad0-4a13-43bf-9a75-f82a9e69211b">
+    <name>ФотоСреднее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото среднее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8af864bb-f342-445e-9092-95b8af56ab9e">
+    <name>ФотоКвадрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото квадрат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a0e7e82-eef8-4e59-bd3f-bc2bdb9947b7">
+    <name>ФотоМиниатюра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото миниатюра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9ea6256-dfc8-4b1c-a5d9-1fbaa16a3a16">
+    <name>Видео</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видео</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

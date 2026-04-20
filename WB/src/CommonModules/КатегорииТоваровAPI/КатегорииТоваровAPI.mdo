@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="433526fb-9624-4592-a1fe-89e166fe4de6">
+  <name>КатегорииТоваровAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории товаров API</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

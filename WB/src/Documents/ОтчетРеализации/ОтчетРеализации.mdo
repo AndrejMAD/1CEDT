@@ -145,7 +145,7 @@
       <value>Вид отчета</value>
     </synonym>
     <type>
-      <types>EnumRef.ВидОтчетаРеализации</types>
+      <types>EnumRef.ВидыОтчетаРеализации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -5,10 +5,10 @@
     <listType typeId="1ee22dfb-a1e0-467c-b2f4-61841195f053" valueTypeId="fe27dd9d-8835-4e8d-ba0c-0a2e03197b01"/>
     <managerType typeId="bd7aa80d-4c5e-4aff-97e0-c8aca1f117fa" valueTypeId="98243097-b791-4407-adf3-377ba5c3546d"/>
   </producedTypes>
-  <name>ВидHTTPЗапроса</name>
+  <name>ТипыHTTPЗапроса</name>
   <synonym>
     <key>ru</key>
-    <value>Вид HTTPЗапроса</value>
+    <value>Типы HTTPЗапроса</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

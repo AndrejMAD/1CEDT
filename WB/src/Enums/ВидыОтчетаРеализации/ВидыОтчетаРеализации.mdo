@@ -5,10 +5,10 @@
     <listType typeId="ca854077-2cc4-4376-8a03-fc4dea448fe5" valueTypeId="4e7467bd-eb1c-4321-95c1-32c07219e49b"/>
     <managerType typeId="3963b241-3332-49da-81ab-1ee697698ce8" valueTypeId="590bcef1-d84d-4eaf-883e-a557ef9893ee"/>
   </producedTypes>
-  <name>ВидОтчетаРеализации</name>
+  <name>ВидыОтчетаРеализации</name>
   <synonym>
     <key>ru</key>
-    <value>Вид отчета реализации</value>
+    <value>Виды отчета реализации</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

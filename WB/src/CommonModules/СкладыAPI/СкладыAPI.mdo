@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afcf1095-b1e6-4659-a210-38e02d357a58">
-  <name>ПоставкиAPI</name>
+  <name>СкладыAPI</name>
   <synonym>
     <key>ru</key>
-    <value>Поставки API</value>
+    <value>Склады API</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>
