@@ -57,11 +57,12 @@
   <scheduledJobs>ScheduledJob.ЗагрузкаФинансовыхОтчетов</scheduledJobs>
   <constants>Constant.ТокенAPI</constants>
   <catalogs>Catalog.Валюты</catalogs>
-  <catalogs>Catalog.КатегорииТоваров</catalogs>
+  <catalogs>Catalog.КарточкиТоваров</catalogs>
   <catalogs>Catalog.КатегорииТоваров</catalogs>
   <catalogs>Catalog.Продавцы</catalogs>
   <catalogs>Catalog.СкладыWB</catalogs>
   <documents>Document.ОтчетРеализации</documents>
   <enums>Enum.ВидHTTPЗапроса</enums>
   <enums>Enum.ВидОтчетаРеализации</enums>
+  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
 </mdclass:Configuration>

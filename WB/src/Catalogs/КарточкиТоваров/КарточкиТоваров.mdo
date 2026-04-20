@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32a3e1e9-4aa9-43b6-8d0a-409ad6b4622a">
+  <producedTypes>
+    <objectType typeId="06f0c989-c463-48b3-a74d-bb9a1f2a5006" valueTypeId="47987129-86bc-4df4-87ca-ce17afcb5953"/>
+    <refType typeId="3b1f7feb-ef56-450d-b1c3-8bc2a71eeb1b" valueTypeId="2079befd-37ee-4921-aa50-629e50b2f812"/>
+    <selectionType typeId="079536ff-60fb-48ab-b3a0-7b1c8baf0421" valueTypeId="3bfd1155-8782-493c-89a0-50bef5631a1a"/>
+    <listType typeId="bccdcde8-268c-4933-bd15-debf47d27224" valueTypeId="f4e9f00b-24be-4df5-a90a-0a010cd42f74"/>
+    <managerType typeId="c45d3d10-0e45-446b-aa73-4de1022ff58f" valueTypeId="98454560-c924-489d-be7b-42602ff7998f"/>
+  </producedTypes>
+  <name>КарточкиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточки товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КарточкиТоваров.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КарточкиТоваров.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
