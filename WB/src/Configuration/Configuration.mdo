@@ -58,6 +58,7 @@
   <constants>Constant.ТокенAPI</constants>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.КатегорииТоваров</catalogs>
+  <catalogs>Catalog.КатегорииТоваров</catalogs>
   <catalogs>Catalog.Продавцы</catalogs>
   <catalogs>Catalog.СкладыWB</catalogs>
   <documents>Document.ОтчетРеализации</documents>
