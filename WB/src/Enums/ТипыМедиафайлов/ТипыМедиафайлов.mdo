@@ -54,4 +54,11 @@
       <value>Видео</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="ec47ef81-9d46-4587-a36d-c69a58f7343c">
+    <name>ФотоВысокоеКачество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото высокое качество</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -108,6 +108,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.КарточкиТоваров.Form.ФормаСписка</defaultListForm>
   <attributes uuid="e4e1645f-fdee-481b-8f42-4680140ff240">
     <name>АртикулWB</name>
     <synonym>
@@ -399,49 +400,36 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="78367eb3-8279-4405-918c-6a9784bf6c39">
-    <producedTypes>
-      <objectType typeId="5a3358dc-4847-4cef-8391-0338ae6febe9" valueTypeId="610bd341-a067-4640-8642-49eaf0055412"/>
-      <rowType typeId="10b39ff5-2da8-4a2a-8317-9d3a2e19adfb" valueTypeId="6a75643b-3f17-459e-9ae2-5437625b486a"/>
-    </producedTypes>
-    <name>Медиафайлы</name>
+  <attributes uuid="2ba1e0f7-8b77-41cd-a18f-e6caa6654500">
+    <name>ЕстьПримерка</name>
     <synonym>
       <key>ru</key>
-      <value>Медиафайлы</value>
+      <value>Есть примерка</value>
     </synonym>
-    <attributes uuid="a5f39317-0c1a-4380-8ad7-bf50de56e38a">
-      <name>Тип</name>
-      <synonym>
-        <key>ru</key>
-        <value>Тип</value>
-      </synonym>
-      <type>
-        <types>EnumRef.ТипыМедиафайлов</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="d4c4e617-95fb-4537-b8af-0d88db26accb">
-      <name>URL</name>
-      <synonym>
-        <key>ru</key>
-        <value>URL</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>1000</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <lineNumberLength>9</lineNumberLength>
-  </tabularSections>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="185819d3-8c28-42f5-a555-68a594a21cde">
+    <name>ГабаритыПроверены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Габариты проверены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="879b22c8-6655-4ca9-a67a-0bfc239e720e">
     <producedTypes>
       <objectType typeId="71fd820f-d44f-41b2-9bf0-a26e559cee8e" valueTypeId="69f068b7-b930-4c17-b886-f8d1dd44a977"/>
@@ -568,4 +556,13 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="433509ee-67d0-4633-8974-ca36dbb4cb31">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

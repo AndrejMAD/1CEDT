@@ -27,6 +27,10 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <clientApplicationTheme>Dark</clientApplicationTheme>
+  <caption>
+    <key>ru</key>
+    <value>WB Ассистент</value>
+  </caption>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
