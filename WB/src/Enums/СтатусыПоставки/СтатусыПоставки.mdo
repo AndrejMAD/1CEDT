@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0289fd6f-2750-4061-b2fb-04f097305662">
+  <producedTypes>
+    <refType typeId="1cde040a-c7fd-4a96-917c-65842c6889ea" valueTypeId="4a08bdb5-ede5-46c7-92a4-8af257a3c50c"/>
+    <listType typeId="b7718b08-996a-4755-8c82-101ffa7a8ade" valueTypeId="ff60190e-0fd2-4370-b150-1730d903d2a3"/>
+    <managerType typeId="7435833f-9446-4f79-91c3-6bacb6d902fe" valueTypeId="5ebeff02-1954-4a99-a0d8-796ac282ea7f"/>
+  </producedTypes>
+  <name>СтатусыПоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы поставки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0360a9c5-e796-4dce-b24e-ad5a0577de8c">
+    <name>НеЗапланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не запланировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66d6b966-60c1-4754-981e-2d74a8094794">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32812dde-4e6d-4221-a0d7-4704ced7922d">
+    <name>ОтгрузкаРазрешена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка разрешена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc942540-ce5f-4884-a543-16706f955aeb">
+    <name>ОтгруженоНаВоротах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружено на воротах</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04bd1a69-f536-469d-a2d1-d187a7e92a2e">
+    <name>ИдетПриемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идет приемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09893af7-a9dc-454c-b5c1-fd0c2ac80b92">
+    <name>Принято</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

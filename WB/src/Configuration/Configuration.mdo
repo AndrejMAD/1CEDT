@@ -55,6 +55,7 @@
   <commonModules>CommonModule.МаппингЗначений</commonModules>
   <commonModules>CommonModule.ОбменДанными</commonModules>
   <commonModules>CommonModule.ПарсерJSON</commonModules>
+  <commonModules>CommonModule.ПоставкиAPI</commonModules>
   <commonModules>CommonModule.ПроверкаЗначенийКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.СкладыAPI</commonModules>
@@ -68,8 +69,11 @@
   <catalogs>Catalog.РазмерыКарточекТоваров</catalogs>
   <catalogs>Catalog.СкладыWB</catalogs>
   <documents>Document.ОтчетРеализации</documents>
+  <documents>Document.Поставки</documents>
   <enums>Enum.ВидыОтчетаРеализации</enums>
+  <enums>Enum.СтатусыПоставки</enums>
   <enums>Enum.ТипыHTTPЗапроса</enums>
   <enums>Enum.ТипыМедиафайлов</enums>
+  <enums>Enum.ТипыПоставки</enums>
   <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
 </mdclass:Configuration>
