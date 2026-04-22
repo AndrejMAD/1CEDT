@@ -48,12 +48,12 @@
   </languages>
   <commonPictures>CommonPicture.Загрузить</commonPictures>
   <commonPictures>CommonPicture.Скачать</commonPictures>
+  <commonModules>CommonModule.ЗаказыПокупателейAPI</commonModules>
   <commonModules>CommonModule.ИнформацияОПродавцеAPI</commonModules>
   <commonModules>CommonModule.КарточкиТоваровAPI</commonModules>
   <commonModules>CommonModule.КатегорииТоваровAPI</commonModules>
   <commonModules>CommonModule.КлиентAPI</commonModules>
   <commonModules>CommonModule.МаппингЗначений</commonModules>
-  <commonModules>CommonModule.ОбменДанными</commonModules>
   <commonModules>CommonModule.ПарсерJSON</commonModules>
   <commonModules>CommonModule.ПоставкиAPI</commonModules>
   <commonModules>CommonModule.ПроверкаЗначенийКлиентСервер</commonModules>
@@ -65,9 +65,13 @@
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.КарточкиТоваров</catalogs>
   <catalogs>Catalog.КатегорииТоваров</catalogs>
+  <catalogs>Catalog.Округа</catalogs>
   <catalogs>Catalog.Продавцы</catalogs>
   <catalogs>Catalog.РазмерыКарточекТоваров</catalogs>
+  <catalogs>Catalog.Регионы</catalogs>
   <catalogs>Catalog.СкладыWB</catalogs>
+  <catalogs>Catalog.Страны</catalogs>
+  <documents>Document.ЗаказыПокупателей</documents>
   <documents>Document.ОтчетРеализации</documents>
   <documents>Document.Поставки</documents>
   <enums>Enum.ВидыОтчетаРеализации</enums>
@@ -75,5 +79,6 @@
   <enums>Enum.ТипыHTTPЗапроса</enums>
   <enums>Enum.ТипыМедиафайлов</enums>
   <enums>Enum.ТипыПоставки</enums>
+  <enums>Enum.ТипыСкладов</enums>
   <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
 </mdclass:Configuration>

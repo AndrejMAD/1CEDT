@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a3b0c59-3bba-4db1-a30e-5cce465974dc">
+  <producedTypes>
+    <refType typeId="15008ec4-e9c4-44b7-9ec6-dbdf3f6b6d85" valueTypeId="ee86f0b2-3931-4835-a116-ef6ea44228bc"/>
+    <listType typeId="721f11b8-84e5-4078-9580-615a684b0a35" valueTypeId="3cd77676-314f-4a63-8b9f-5aef76a2e56d"/>
+    <managerType typeId="8e374f67-1201-4748-a71d-8510f3ac446d" valueTypeId="36379ed8-419b-48bd-9ca4-bf7e2cf2c8b1"/>
+  </producedTypes>
+  <name>ТипыСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы складов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a77ac34c-7828-474b-bcb8-21c6bbe8a865">
+    <name>СкладWB</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад WB</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74427e7f-883c-4f9a-9233-85f71e88daee">
+    <name>СкладПродавца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад продавца</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

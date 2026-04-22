@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7cd8e02-e1c5-4360-83af-6d9a7f3266e4">
+  <producedTypes>
+    <objectType typeId="f0978e19-faaf-4e2c-aa15-5abfc2f15f95" valueTypeId="47050dff-776b-415a-9e12-f318649ae66e"/>
+    <refType typeId="226cca34-5ccc-4bce-b715-b29e38d04f3d" valueTypeId="3e777e0b-4254-4eb8-a676-2d24ab464021"/>
+    <selectionType typeId="aa6a5557-93a9-45a9-ba9f-3bd0842e3896" valueTypeId="dd99b35f-f860-4836-8893-799ae57305b5"/>
+    <listType typeId="4552cb85-1829-4897-a2ea-6acbdadb506b" valueTypeId="c4f145ca-e7be-46d9-b50c-64b9bece3218"/>
+    <managerType typeId="836e4c9e-9ccd-488a-a412-b6752ee894c5" valueTypeId="1821285a-3e9e-46f4-bbed-bc17d7cc3d1e"/>
+  </producedTypes>
+  <name>Округа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Округа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Округа.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Округа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c6ae276-e28d-45b7-b9a6-567bd652ad81">
+  <producedTypes>
+    <objectType typeId="8c4bc8d1-6056-4fa8-94f4-ed90d1467894" valueTypeId="7c38cd31-1935-4213-aab3-3a0185cd9468"/>
+    <refType typeId="8c576fc0-0440-40b8-8258-6eac31e31c3b" valueTypeId="74b8d057-5d87-4c89-9aef-4a24f8da3c0c"/>
+    <selectionType typeId="4f835ef1-0d4e-4c67-9604-d852729b36f7" valueTypeId="e85e6cca-ecc9-4bc6-bdd8-89eca29597b5"/>
+    <listType typeId="6a5ccf62-0c27-4b81-bde2-13803e7f8134" valueTypeId="93b72d28-c1c2-4a77-9487-b9c753d52695"/>
+    <managerType typeId="3f137d69-7420-47d1-9e9a-bc970fe14d13" valueTypeId="906d6d7a-e21d-4f34-a2d1-b563c8756310"/>
+  </producedTypes>
+  <name>Регионы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регионы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Регионы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Регионы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
