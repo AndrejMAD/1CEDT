@@ -80,5 +80,4 @@
   <enums>Enum.ТипыМедиафайлов</enums>
   <enums>Enum.ТипыПоставки</enums>
   <enums>Enum.ТипыСкладов</enums>
-  <dataProcessors>DataProcessor.ОбменДанными</dataProcessors>
 </mdclass:Configuration>
