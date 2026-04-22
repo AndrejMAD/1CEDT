@@ -239,4 +239,129 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <tabularSections uuid="787dd23c-ab96-4898-b0c6-041b22101ffd">
+    <producedTypes>
+      <objectType typeId="c91de82e-2ef0-4693-b1f9-a9527909a13d" valueTypeId="720dbfe2-6eb7-47ba-b379-e4dbfbab5cec"/>
+      <rowType typeId="8e9c90ba-af74-415a-8e45-019e65a01e8f" valueTypeId="7562a9a1-2c75-46e5-b432-2bab59fa4b6d"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="36e00b63-5214-426d-81a7-a77171fb5a19">
+      <name>КарточкаТовара</name>
+      <synonym>
+        <key>ru</key>
+        <value>Карточка товара</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КарточкиТоваров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="532f3442-6b4b-467e-a6cb-aa2e3fce74af">
+      <name>Размер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РазмерыКарточекТоваров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4d231f75-21b0-4403-97ce-6ba4c849657d">
+      <name>КоличествоВПоставке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество в поставке</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8bf5f50a-8f6b-4a46-9864-24884874bcbc">
+      <name>КоличествоВУпаковке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество в упаковке</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="edbc0071-c47c-4708-b0b0-e7d59ff92c7f">
+      <name>КоличествоПринято</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество принято</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="39ef8470-6aff-4acf-9b08-863ee5e6973f">
+      <name>КоличествоНаРаскладке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество на раскладке</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b44e850a-7bf6-4756-ade9-8c3235f191aa">
+      <name>КоличествоПоступилоВПродажу</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество поступило в продажу</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
 </mdclass:Document>

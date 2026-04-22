@@ -706,7 +706,7 @@
       </extendedTooltip>
       <commandName>Form.Command.Загрузить</commandName>
       <buttonImportance>Normal</buttonImportance>
-      <representation>PictureAndText</representation>
+      <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -756,7 +756,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Загрузить</picture>
+      <picture>CommonPicture.Скачать</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

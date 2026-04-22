@@ -48,43 +48,6 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Номер</name>
-      <id>16</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Number</segments>
-      </dataPath>
-      <defaultItem>true</defaultItem>
-      <extendedTooltip>
-        <name>НомерРасширеннаяПодсказка</name>
-        <id>18</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>НомерКонтекстноеМеню</name>
-        <id>17</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Auto</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>Дата</name>
       <id>19</id>
       <visible>true</visible>
@@ -121,19 +84,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Продавец</name>
-      <id>22</id>
+      <name>Статус</name>
+      <id>43</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Продавец</segments>
+        <segments>Список.Статус</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПродавецРасширеннаяПодсказка</name>
-        <id>24</id>
+        <name>СтатусРасширеннаяПодсказка</name>
+        <id>45</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -142,8 +105,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПродавецКонтекстноеМеню</name>
-        <id>23</id>
+        <name>СтатусКонтекстноеМеню</name>
+        <id>44</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -157,19 +120,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Телефон</name>
-      <id>25</id>
+      <name>ТипПоставки</name>
+      <id>46</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Телефон</segments>
+        <segments>Список.ТипПоставки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТелефонРасширеннаяПодсказка</name>
-        <id>27</id>
+        <name>ТипПоставкиРасширеннаяПодсказка</name>
+        <id>48</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -178,80 +141,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТелефонКонтекстноеМеню</name>
-        <id>26</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Auto</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ИдПоставки</name>
-      <id>28</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ИдПоставки</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ИдПоставкиРасширеннаяПодсказка</name>
-        <id>30</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ИдПоставкиКонтекстноеМеню</name>
-        <id>29</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Auto</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ИдЗаказа</name>
-      <id>31</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.ИдЗаказа</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ИдЗаказаРасширеннаяПодсказка</name>
-        <id>33</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ИдЗаказаКонтекстноеМеню</name>
-        <id>32</id>
+        <name>ТипПоставкиКонтекстноеМеню</name>
+        <id>47</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -373,19 +264,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Статус</name>
-      <id>43</id>
+      <name>ИдПоставки</name>
+      <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Статус</segments>
+        <segments>Список.ИдПоставки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СтатусРасширеннаяПодсказка</name>
-        <id>45</id>
+        <name>ИдПоставкиРасширеннаяПодсказка</name>
+        <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -394,8 +285,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СтатусКонтекстноеМеню</name>
-        <id>44</id>
+        <name>ИдПоставкиКонтекстноеМеню</name>
+        <id>29</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -409,19 +300,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ТипПоставки</name>
-      <id>46</id>
+      <name>ИдЗаказа</name>
+      <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ТипПоставки</segments>
+        <segments>Список.ИдЗаказа</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТипПоставкиРасширеннаяПодсказка</name>
-        <id>48</id>
+        <name>ИдЗаказаРасширеннаяПодсказка</name>
+        <id>33</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -430,8 +321,80 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТипПоставкиКонтекстноеМеню</name>
-        <id>47</id>
+        <name>ИдЗаказаКонтекстноеМеню</name>
+        <id>32</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Auto</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Телефон</name>
+      <id>25</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Телефон</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ТелефонРасширеннаяПодсказка</name>
+        <id>27</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТелефонКонтекстноеМеню</name>
+        <id>26</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Auto</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Продавец</name>
+      <id>22</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Продавец</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПродавецРасширеннаяПодсказка</name>
+        <id>24</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПродавецКонтекстноеМеню</name>
+        <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
