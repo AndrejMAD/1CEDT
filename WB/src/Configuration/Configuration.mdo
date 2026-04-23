@@ -54,12 +54,12 @@
   <commonModules>CommonModule.КатегорииТоваровAPI</commonModules>
   <commonModules>CommonModule.КлиентAPI</commonModules>
   <commonModules>CommonModule.МаппингЗначений</commonModules>
+  <commonModules>CommonModule.ОтчетыРеализацииAPI</commonModules>
   <commonModules>CommonModule.ПарсерJSON</commonModules>
   <commonModules>CommonModule.ПоставкиAPI</commonModules>
   <commonModules>CommonModule.ПроверкаЗначенийКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.СкладыAPI</commonModules>
-  <commonModules>CommonModule.ФинансовыеОтчетыAPI</commonModules>
   <scheduledJobs>ScheduledJob.ЗагрузкаФинансовыхОтчетов</scheduledJobs>
   <constants>Constant.ТокенAPI</constants>
   <catalogs>Catalog.Валюты</catalogs>

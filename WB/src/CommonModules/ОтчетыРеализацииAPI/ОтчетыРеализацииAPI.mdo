@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2732e5ac-ff22-4108-bede-cf57cc365534">
-  <name>ФинансовыеОтчетыAPI</name>
+  <name>ОтчетыРеализацииAPI</name>
   <synonym>
     <key>ru</key>
-    <value>Финансовые отчеты API</value>
+    <value>Отчеты реализации API</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>
