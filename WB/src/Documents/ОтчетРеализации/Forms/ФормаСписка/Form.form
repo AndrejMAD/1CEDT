@@ -48,6 +48,43 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
+      <name>ДетализацияЗагружена</name>
+      <id>60</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДетализацияЗагружена</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДетализацияЗагруженаРасширеннаяПодсказка</name>
+        <id>62</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДетализацияЗагруженаКонтекстноеМеню</name>
+        <id>61</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <readOnly>true</readOnly>
+      <editMode>Auto</editMode>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>CommonPicture.Скачать</picture>
+      </headerPicture>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+        <checkBoxType>CheckBox</checkBoxType>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Номер</name>
       <id>16</id>
       <visible>true</visible>
@@ -86,7 +123,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ИдОтчета</name>
-      <id>60</id>
+      <id>161</id>
       <title>
         <key>ru</key>
         <value>Ид</value>
@@ -99,21 +136,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Список.ИдОтчета</segments>
       </dataPath>
-      <extendedTooltip>
-        <name>ИдОтчетаРасширеннаяПодсказка</name>
-        <id>62</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ИдОтчетаКонтекстноеМеню</name>
-        <id>61</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
       <type>LabelField</type>
       <editMode>Auto</editMode>
       <showInHeader>true</showInHeader>
