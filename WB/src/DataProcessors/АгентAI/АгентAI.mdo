@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cf46cbf-2f14-4e4b-81c2-0e179026ec4e">
+  <producedTypes>
+    <objectType typeId="15813ae0-8c91-4196-ab5c-c450e9c4222b" valueTypeId="ed6152be-8f08-42ff-ac8b-366d2363ac95"/>
+    <managerType typeId="eee903c7-8438-4638-a3bd-2e874422f4df" valueTypeId="8f9c1da9-1ded-4f15-8691-d2c363aa42fe"/>
+  </producedTypes>
+  <name>АгентAI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агент AI</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АгентAI.Form.Форма</defaultForm>
+  <attributes uuid="5c395beb-81fc-4d3c-9ddb-e6a73f687c5b">
+    <name>КлючAPI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="13b9ffb2-7e0b-489c-a66b-c96f9a70b448">
+    <name>ИдКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид каталога</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5229ba3d-6553-47e5-b38f-87d2560b0e33">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="800b14b5-34ab-431b-a232-7bbd57a28963">
+    <name>Инструкция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="620614d4-94ae-4ba7-bd2e-073314870416">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3da46fee-1f92-4221-a759-17a09313f180">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

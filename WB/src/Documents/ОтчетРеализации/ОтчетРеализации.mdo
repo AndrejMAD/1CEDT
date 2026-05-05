@@ -473,6 +473,24 @@
       <key>ru</key>
       <value>Детализация</value>
     </synonym>
+    <attributes uuid="ab6ac874-21ba-4587-a91b-d6fd951fb75f">
+      <name>АртикулWB</name>
+      <synonym>
+        <key>ru</key>
+        <value>Артикул WB</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="a6efa04f-3741-4064-8403-2e6cb7167868">
       <name>БанкЭквайер</name>
       <synonym>
@@ -673,6 +691,23 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="efc7c993-afe7-4a30-bc25-78646b7af999">
+      <name>ИдПоставки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ид поставки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="45a4b21a-7a19-463c-8b25-4d70b99785f9">
       <name>ИдПромокода</name>
       <synonym>
@@ -683,6 +718,23 @@
         <types>String</types>
         <stringQualifiers>
           <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d345176-c127-497f-9fe7-f578d13b8211">
+      <name>ИдРазмера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ид размера</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -834,6 +886,23 @@
         <dateQualifiers>
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d5c5a270-9006-4dab-8971-e4c1ed43a1e7">
+      <name>НаименованиеСклада</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование склада</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -1666,20 +1735,6 @@
           <precision>15</precision>
           <scale>2</scale>
         </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="3cab126b-2d82-4e04-a4ac-a91bdc5250b6">
-      <name>ТипДокумента</name>
-      <synonym>
-        <key>ru</key>
-        <value>Тип документа</value>
-      </synonym>
-      <type>
-        <types>EnumRef.ВидыОтчетаРеализации</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

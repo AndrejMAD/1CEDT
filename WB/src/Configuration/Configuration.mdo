@@ -60,6 +60,8 @@
   <commonModules>CommonModule.ПроверкаЗначенийКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.СкладыAPI</commonModules>
+  <scheduledJobs>ScheduledJob.ЗагрузкаЗаказов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ЗагрузкаПоставок</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗагрузкаФинансовыхОтчетов</scheduledJobs>
   <constants>Constant.ТокенAPI</constants>
   <catalogs>Catalog.Валюты</catalogs>
@@ -80,4 +82,5 @@
   <enums>Enum.ТипыМедиафайлов</enums>
   <enums>Enum.ТипыПоставки</enums>
   <enums>Enum.ТипыСкладов</enums>
+  <dataProcessors>DataProcessor.АгентAI</dataProcessors>
 </mdclass:Configuration>
