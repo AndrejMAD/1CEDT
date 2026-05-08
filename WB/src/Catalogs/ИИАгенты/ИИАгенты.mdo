@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a8840b3-be5d-4d6c-8f5b-f984e02562fa">
+  <producedTypes>
+    <objectType typeId="6d510ab6-cdcd-4e72-85f5-ed2264bc26f5" valueTypeId="ab7fcaa4-768e-4633-a977-0d98ded8a0cb"/>
+    <refType typeId="36dc562f-17f9-491d-b0cb-7aa39b2ac660" valueTypeId="f280a4f1-52ba-433b-b87b-e3d2473f05b5"/>
+    <selectionType typeId="1d60e87f-dea8-47f1-9993-3b05d9f61b63" valueTypeId="039db17c-7a33-449e-a3e1-e5898f6875eb"/>
+    <listType typeId="b9334448-13fb-45f1-9eb1-8df8b3f88476" valueTypeId="4f8a95db-351f-4a5e-b743-f5efa24c52d0"/>
+    <managerType typeId="861824d4-15c3-4f25-86c5-20b6df560699" valueTypeId="0c821a75-d6fd-4808-a3a0-36942886cdef"/>
+  </producedTypes>
+  <name>ИИАгенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИИАгенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИИАгенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ИИАгенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИИАгенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="4ae2b08f-6773-4ec6-8fba-a7fdaa04cd22">
+    <name>КлючAPI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ API</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4466af04-9bba-42e9-bf57-dda478d5aec1">
+    <name>ИдКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид каталога</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6b0dcbd7-c0c6-48da-8822-f6a0740e29ce">
+    <name>ИдАгента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид агента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="97b8fda6-9bb1-49ca-b6b4-68afa20872ad">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

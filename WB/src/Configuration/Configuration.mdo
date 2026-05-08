@@ -49,6 +49,7 @@
   <commonPictures>CommonPicture.Загрузить</commonPictures>
   <commonPictures>CommonPicture.Скачать</commonPictures>
   <commonModules>CommonModule.ЗаказыПокупателейAPI</commonModules>
+  <commonModules>CommonModule.ИИАгенты</commonModules>
   <commonModules>CommonModule.ИнформацияОПродавцеAPI</commonModules>
   <commonModules>CommonModule.КарточкиТоваровAPI</commonModules>
   <commonModules>CommonModule.КатегорииТоваровAPI</commonModules>
@@ -65,6 +66,7 @@
   <scheduledJobs>ScheduledJob.ЗагрузкаФинансовыхОтчетов</scheduledJobs>
   <constants>Constant.ТокенAPI</constants>
   <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ИИАгенты</catalogs>
   <catalogs>Catalog.КарточкиТоваров</catalogs>
   <catalogs>Catalog.КатегорииТоваров</catalogs>
   <catalogs>Catalog.Округа</catalogs>
