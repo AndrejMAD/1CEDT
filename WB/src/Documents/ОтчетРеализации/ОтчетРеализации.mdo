@@ -508,23 +508,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="e31f19bd-2911-4035-9064-1009de7ff09d">
-      <name>КоличествоДоставок</name>
-      <synonym>
-        <key>ru</key>
-        <value>Количество доставок</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="c14d2a7a-18fc-432f-9a67-1b4dd50a631e">
       <name>ВидыЛогистикиШтрафов</name>
       <synonym>
@@ -583,6 +566,20 @@
         <dateQualifiers>
           <dateFractions>Date</dateFractions>
         </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6161e738-ebf5-418c-99fa-e69dee9f415a">
+      <name>Заказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаказыПокупателей</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -863,6 +860,23 @@
       <synonym>
         <key>ru</key>
         <value>Количество возврата</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e31f19bd-2911-4035-9064-1009de7ff09d">
+      <name>КоличествоДоставок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество доставок</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -1525,6 +1539,24 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="2487c029-91fd-4cbc-8120-40480d207eda">
+      <name>СуммаДоставки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма доставки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="2df31175-cc6e-4222-a0d8-776184c9e778">
       <name>СуммаИзмененияСрокаПеречисления</name>
       <synonym>
@@ -1763,23 +1795,6 @@
       <synonym>
         <key>ru</key>
         <value>Тип платежных услуг</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>50</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="2487c029-91fd-4cbc-8120-40480d207eda">
-      <name>УслугиДоставки</name>
-      <synonym>
-        <key>ru</key>
-        <value>Услуги доставки</value>
       </synonym>
       <type>
         <types>String</types>

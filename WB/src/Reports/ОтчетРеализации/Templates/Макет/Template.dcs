@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСтроки</dataPath>
+			<field>НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АртикулWB</dataPath>
+			<field>АртикулWB</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БанкЭквайер</dataPath>
+			<field>БанкЭквайер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоДоставок</dataPath>
+			<field>КоличествоДоставок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидыЛогистикиШтрафов</dataPath>
+			<field>ВидыЛогистикиШтрафов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВремяЗаказа</dataPath>
+			<field>ДатаВремяЗаказа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВремяПродажи</dataPath>
+			<field>ДатаВремяПродажи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОперации</dataPath>
+			<field>ДатаОперации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдАкцииПродавца</dataPath>
+			<field>ИдАкцииПродавца</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдЗаказа</dataPath>
+			<field>ИдЗаказа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдКорзиныЗаказа</dataPath>
+			<field>ИдКорзиныЗаказа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдКороба</dataPath>
+			<field>ИдКороба</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдОфисаДоставки</dataPath>
+			<field>ИдОфисаДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдПодменногоАртикула</dataPath>
+			<field>ИдПодменногоАртикула</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдПоставки</dataPath>
+			<field>ИдПоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдПромокода</dataPath>
+			<field>ИдПромокода</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдРазмера</dataPath>
+			<field>ИдРазмера</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдСборочногоЗадания</dataPath>
+			<field>ИдСборочногоЗадания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдСкидкиЛояльности</dataPath>
+			<field>ИдСкидкиЛояльности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдСтроки</dataPath>
+			<field>ИдСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИННПартнера</dataPath>
+			<field>ИННПартнера</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КарточкаТовара</dataPath>
+			<field>КарточкаТовара</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодМаркировки</dataPath>
+			<field>КодМаркировки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоВозврата</dataPath>
+			<field>КоличествоВозврата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонецДействияФиксации</dataPath>
+			<field>КонецДействияФиксации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаименованиеСклада</dataPath>
+			<field>НаименованиеСклада</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НачалоДействияФиксации</dataPath>
+			<field>НачалоДействияФиксации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерТаможеннойДекларации</dataPath>
+			<field>НомерТаможеннойДекларации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбоснованиеДляОплаты</dataPath>
+			<field>ОбоснованиеДляОплаты</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОперацииНаПриемке</dataPath>
+			<field>ОперацииНаПриемке</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОрганизаторПеревозки</dataPath>
+			<field>ОрганизаторПеревозки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОфисДоставки</dataPath>
+			<field>ОфисДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партнер</dataPath>
+			<field>Партнер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Поставка</dataPath>
+			<field>Поставка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПризнакB2BПродажи</dataPath>
+			<field>ПризнакB2BПродажи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПризнакПлатнойДоставки</dataPath>
+			<field>ПризнакПлатнойДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентАгентскогоНДС</dataPath>
+			<field>ПроцентАгентскогоНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентДополнительнойСкидкиАкции</dataPath>
+			<field>ПроцентДополнительнойСкидкиАкции</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентИтоговойСогласованнойСкидки</dataPath>
+			<field>ПроцентИтоговойСогласованнойСкидки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентИтоговыйКВВ</dataPath>
+			<field>ПроцентИтоговыйКВВ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентКВВ</dataPath>
+			<field>ПроцентКВВ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентКВВБазовый</dataPath>
+			<field>ПроцентКВВБазовый</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентКомпенсацииПлатежныхУслуг</dataPath>
+			<field>ПроцентКомпенсацииПлатежныхУслуг</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентОптовойСкидкиДляБизнеса</dataPath>
+			<field>ПроцентОптовойСкидкиДляБизнеса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентПлатформеннойСкидки</dataPath>
+			<field>ПроцентПлатформеннойСкидки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентПродуктовогоДисконта</dataPath>
+			<field>ПроцентПродуктовогоДисконта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентПромокода</dataPath>
+			<field>ПроцентПромокода</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентСкидкиWibes</dataPath>
+			<field>ПроцентСкидкиWibes</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентСкидкиЗаПромокод</dataPath>
+			<field>ПроцентСкидкиЗаПромокод</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентСкидкиЛояльности</dataPath>
+			<field>ПроцентСкидкиЛояльности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентСкидкиПодменногоАртикула</dataPath>
+			<field>ПроцентСкидкиПодменногоАртикула</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентСниженияКВВЗаАкцию</dataPath>
+			<field>ПроцентСниженияКВВЗаАкцию</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентСниженияКВВЗаРейтинг</dataPath>
+			<field>ПроцентСниженияКВВЗаРейтинг</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Размер</dataPath>
+			<field>Размер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособПродажи</dataPath>
+			<field>СпособПродажи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтикерМП</dataPath>
+			<field>СтикерМП</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтранаПродажи</dataPath>
+			<field>СтранаПродажи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВозмещенияИздержек</dataPath>
+			<field>СуммаВозмещенияИздержек</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВозмещенияПВЗ</dataPath>
+			<field>СуммаВозмещенияПВЗ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВознагражденияWB</dataPath>
+			<field>СуммаВознагражденияWB</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВознагражденияСПродаж</dataPath>
+			<field>СуммаВознагражденияСПродаж</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаИзмененияСрокаПеречисления</dataPath>
+			<field>СуммаИзмененияСрокаПеречисления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаКомпенсацииПлатежныхУслуг</dataPath>
+			<field>СуммаКомпенсацииПлатежныхУслуг</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаКомпенсацииСкидкиЛояльности</dataPath>
+			<field>СуммаКомпенсацииСкидкиЛояльности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаКорректировкиВознагражденияWB</dataPath>
+			<field>СуммаКорректировкиВознагражденияWB</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаКПеречислениюПродавцу</dataPath>
+			<field>СуммаКПеречислениюПродавцу</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаНДСВознагражденияWB</dataPath>
+			<field>СуммаНДСВознагражденияWB</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаСкидкиСофинансирования</dataPath>
+			<field>СуммаСкидкиСофинансирования</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаУдержаний</dataPath>
+			<field>СуммаУдержаний</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаУдержанияЗаБаллы</dataPath>
+			<field>СуммаУдержанияЗаБаллы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаУчастияВЛояльности</dataPath>
+			<field>СуммаУчастияВЛояльности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаХранения</dataPath>
+			<field>СуммаХранения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаШтрафов</dataPath>
+			<field>СуммаШтрафов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипКоробов</dataPath>
+			<field>ТипКоробов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПлатежныхУслуг</dataPath>
+			<field>ТипПлатежныхУслуг</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаДоставки</dataPath>
+			<field>СуммаДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФиксированныйКоэффициентСклада</dataPath>
+			<field>ФиксированныйКоэффициентСклада</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаРеализацииWB</dataPath>
+			<field>ЦенаРеализацииWB</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаРозничная</dataPath>
+			<field>ЦенаРозничная</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаРозничнаяСоСкидкой</dataPath>
+			<field>ЦенаРозничнаяСоСкидкой</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Штрихкод</dataPath>
+			<field>Штрихкод</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказ</dataPath>
+			<field>Заказ</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ОтчетРеализацииДетализация.НомерСтроки КАК НомерСтроки,
+	ОтчетРеализацииДетализация.АртикулWB КАК АртикулWB,
+	ОтчетРеализацииДетализация.БанкЭквайер КАК БанкЭквайер,
+	ОтчетРеализацииДетализация.КоличествоДоставок КАК КоличествоДоставок,
+	ОтчетРеализацииДетализация.ВидыЛогистикиШтрафов КАК ВидыЛогистикиШтрафов,
+	ОтчетРеализацииДетализация.ДатаВремяЗаказа КАК ДатаВремяЗаказа,
+	ОтчетРеализацииДетализация.ДатаВремяПродажи КАК ДатаВремяПродажи,
+	ОтчетРеализацииДетализация.ДатаОперации КАК ДатаОперации,
+	ОтчетРеализацииДетализация.ИдАкцииПродавца КАК ИдАкцииПродавца,
+	ОтчетРеализацииДетализация.ИдЗаказа КАК ИдЗаказа,
+	ОтчетРеализацииДетализация.ИдКорзиныЗаказа КАК ИдКорзиныЗаказа,
+	ОтчетРеализацииДетализация.ИдКороба КАК ИдКороба,
+	ОтчетРеализацииДетализация.ИдОфисаДоставки КАК ИдОфисаДоставки,
+	ОтчетРеализацииДетализация.ИдПодменногоАртикула КАК ИдПодменногоАртикула,
+	ОтчетРеализацииДетализация.ИдПоставки КАК ИдПоставки,
+	ОтчетРеализацииДетализация.ИдПромокода КАК ИдПромокода,
+	ОтчетРеализацииДетализация.ИдРазмера КАК ИдРазмера,
+	ОтчетРеализацииДетализация.ИдСборочногоЗадания КАК ИдСборочногоЗадания,
+	ОтчетРеализацииДетализация.ИдСкидкиЛояльности КАК ИдСкидкиЛояльности,
+	ОтчетРеализацииДетализация.ИдСтроки КАК ИдСтроки,
+	ОтчетРеализацииДетализация.ИННПартнера КАК ИННПартнера,
+	ОтчетРеализацииДетализация.КарточкаТовара КАК КарточкаТовара,
+	ОтчетРеализацииДетализация.КодМаркировки КАК КодМаркировки,
+	ОтчетРеализацииДетализация.Количество КАК Количество,
+	ОтчетРеализацииДетализация.КоличествоВозврата КАК КоличествоВозврата,
+	ОтчетРеализацииДетализация.КонецДействияФиксации КАК КонецДействияФиксации,
+	ОтчетРеализацииДетализация.НаименованиеСклада КАК НаименованиеСклада,
+	ОтчетРеализацииДетализация.НачалоДействияФиксации КАК НачалоДействияФиксации,
+	ОтчетРеализацииДетализация.НомерТаможеннойДекларации КАК НомерТаможеннойДекларации,
+	ОтчетРеализацииДетализация.ОбоснованиеДляОплаты КАК ОбоснованиеДляОплаты,
+	ОтчетРеализацииДетализация.ОперацииНаПриемке КАК ОперацииНаПриемке,
+	ОтчетРеализацииДетализация.ОрганизаторПеревозки КАК ОрганизаторПеревозки,
+	ОтчетРеализацииДетализация.ОфисДоставки КАК ОфисДоставки,
+	ОтчетРеализацииДетализация.Партнер КАК Партнер,
+	ОтчетРеализацииДетализация.Поставка КАК Поставка,
+	ОтчетРеализацииДетализация.ПризнакB2BПродажи КАК ПризнакB2BПродажи,
+	ОтчетРеализацииДетализация.ПризнакПлатнойДоставки КАК ПризнакПлатнойДоставки,
+	ОтчетРеализацииДетализация.ПроцентАгентскогоНДС КАК ПроцентАгентскогоНДС,
+	ОтчетРеализацииДетализация.ПроцентДополнительнойСкидкиАкции КАК ПроцентДополнительнойСкидкиАкции,
+	ОтчетРеализацииДетализация.ПроцентИтоговойСогласованнойСкидки КАК ПроцентИтоговойСогласованнойСкидки,
+	ОтчетРеализацииДетализация.ПроцентИтоговыйКВВ КАК ПроцентИтоговыйКВВ,
+	ОтчетРеализацииДетализация.ПроцентКВВ КАК ПроцентКВВ,
+	ОтчетРеализацииДетализация.ПроцентКВВБазовый КАК ПроцентКВВБазовый,
+	ОтчетРеализацииДетализация.ПроцентКомпенсацииПлатежныхУслуг КАК ПроцентКомпенсацииПлатежныхУслуг,
+	ОтчетРеализацииДетализация.ПроцентОптовойСкидкиДляБизнеса КАК ПроцентОптовойСкидкиДляБизнеса,
+	ОтчетРеализацииДетализация.ПроцентПлатформеннойСкидки КАК ПроцентПлатформеннойСкидки,
+	ОтчетРеализацииДетализация.ПроцентПродуктовогоДисконта КАК ПроцентПродуктовогоДисконта,
+	ОтчетРеализацииДетализация.ПроцентПромокода КАК ПроцентПромокода,
+	ОтчетРеализацииДетализация.ПроцентСкидкиWibes КАК ПроцентСкидкиWibes,
+	ОтчетРеализацииДетализация.ПроцентСкидкиЗаПромокод КАК ПроцентСкидкиЗаПромокод,
+	ОтчетРеализацииДетализация.ПроцентСкидкиЛояльности КАК ПроцентСкидкиЛояльности,
+	ОтчетРеализацииДетализация.ПроцентСкидкиПодменногоАртикула КАК ПроцентСкидкиПодменногоАртикула,
+	ОтчетРеализацииДетализация.ПроцентСниженияКВВЗаАкцию КАК ПроцентСниженияКВВЗаАкцию,
+	ОтчетРеализацииДетализация.ПроцентСниженияКВВЗаРейтинг КАК ПроцентСниженияКВВЗаРейтинг,
+	ОтчетРеализацииДетализация.Размер КАК Размер,
+	ОтчетРеализацииДетализация.Склад КАК Склад,
+	ОтчетРеализацииДетализация.СпособПродажи КАК СпособПродажи,
+	ОтчетРеализацииДетализация.СтикерМП КАК СтикерМП,
+	ОтчетРеализацииДетализация.СтранаПродажи КАК СтранаПродажи,
+	ОтчетРеализацииДетализация.СуммаВозмещенияИздержек КАК СуммаВозмещенияИздержек,
+	ОтчетРеализацииДетализация.СуммаВозмещенияПВЗ КАК СуммаВозмещенияПВЗ,
+	ОтчетРеализацииДетализация.СуммаВознагражденияWB КАК СуммаВознагражденияWB,
+	ОтчетРеализацииДетализация.СуммаВознагражденияСПродаж КАК СуммаВознагражденияСПродаж,
+	ОтчетРеализацииДетализация.СуммаИзмененияСрокаПеречисления КАК СуммаИзмененияСрокаПеречисления,
+	ОтчетРеализацииДетализация.СуммаКомпенсацииПлатежныхУслуг КАК СуммаКомпенсацииПлатежныхУслуг,
+	ОтчетРеализацииДетализация.СуммаКомпенсацииСкидкиЛояльности КАК СуммаКомпенсацииСкидкиЛояльности,
+	ОтчетРеализацииДетализация.СуммаКорректировкиВознагражденияWB КАК СуммаКорректировкиВознагражденияWB,
+	ОтчетРеализацииДетализация.СуммаКПеречислениюПродавцу КАК СуммаКПеречислениюПродавцу,
+	ОтчетРеализацииДетализация.СуммаНДСВознагражденияWB КАК СуммаНДСВознагражденияWB,
+	ОтчетРеализацииДетализация.СуммаСкидкиСофинансирования КАК СуммаСкидкиСофинансирования,
+	ОтчетРеализацииДетализация.СуммаУдержаний КАК СуммаУдержаний,
+	ОтчетРеализацииДетализация.СуммаУдержанияЗаБаллы КАК СуммаУдержанияЗаБаллы,
+	ОтчетРеализацииДетализация.СуммаУчастияВЛояльности КАК СуммаУчастияВЛояльности,
+	ОтчетРеализацииДетализация.СуммаХранения КАК СуммаХранения,
+	ОтчетРеализацииДетализация.СуммаШтрафов КАК СуммаШтрафов,
+	ОтчетРеализацииДетализация.ТипКоробов КАК ТипКоробов,
+	ОтчетРеализацииДетализация.ТипПлатежныхУслуг КАК ТипПлатежныхУслуг,
+	ОтчетРеализацииДетализация.СуммаДоставки КАК СуммаДоставки,
+	ОтчетРеализацииДетализация.ФиксированныйКоэффициентСклада КАК ФиксированныйКоэффициентСклада,
+	ОтчетРеализацииДетализация.ЦенаРеализацииWB КАК ЦенаРеализацииWB,
+	ОтчетРеализацииДетализация.ЦенаРозничная КАК ЦенаРозничная,
+	ОтчетРеализацииДетализация.ЦенаРозничнаяСоСкидкой КАК ЦенаРозничнаяСоСкидкой,
+	ОтчетРеализацииДетализация.Штрихкод КАК Штрихкод,
+	ОтчетРеализацииДетализация.Заказ КАК Заказ
+ИЗ
+	Документ.ОтчетРеализации.Детализация КАК ОтчетРеализацииДетализация</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоВозврата</dataPath>
+		<expression>Сумма(КоличествоВозврата)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоДоставок</dataPath>
+		<expression>Сумма(КоличествоДоставок)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентАгентскогоНДС</dataPath>
+		<expression>Среднее(ПроцентАгентскогоНДС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентДополнительнойСкидкиАкции</dataPath>
+		<expression>Среднее(ПроцентДополнительнойСкидкиАкции)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентИтоговойСогласованнойСкидки</dataPath>
+		<expression>Среднее(ПроцентИтоговойСогласованнойСкидки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентИтоговыйКВВ</dataPath>
+		<expression>Среднее(ПроцентИтоговыйКВВ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентКВВ</dataPath>
+		<expression>Среднее(ПроцентКВВ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентКВВБазовый</dataPath>
+		<expression>Среднее(ПроцентКВВБазовый)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентКомпенсацииПлатежныхУслуг</dataPath>
+		<expression>Среднее(ПроцентКомпенсацииПлатежныхУслуг)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентОптовойСкидкиДляБизнеса</dataPath>
+		<expression>Среднее(ПроцентОптовойСкидкиДляБизнеса)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентПлатформеннойСкидки</dataPath>
+		<expression>Среднее(ПроцентПлатформеннойСкидки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентПродуктовогоДисконта</dataPath>
+		<expression>Среднее(ПроцентПродуктовогоДисконта)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентПромокода</dataPath>
+		<expression>Среднее(ПроцентПромокода)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентСкидкиWibes</dataPath>
+		<expression>Среднее(ПроцентСкидкиWibes)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентСкидкиЗаПромокод</dataPath>
+		<expression>Среднее(ПроцентСкидкиЗаПромокод)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентСкидкиЛояльности</dataPath>
+		<expression>Среднее(ПроцентСкидкиЛояльности)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентСкидкиПодменногоАртикула</dataPath>
+		<expression>Среднее(ПроцентСкидкиПодменногоАртикула)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентСниженияКВВЗаАкцию</dataPath>
+		<expression>Среднее(ПроцентСниженияКВВЗаАкцию)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентСниженияКВВЗаРейтинг</dataPath>
+		<expression>Среднее(ПроцентСниженияКВВЗаРейтинг)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаВозмещенияИздержек</dataPath>
+		<expression>Сумма(СуммаВозмещенияИздержек)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаВозмещенияПВЗ</dataPath>
+		<expression>Сумма(СуммаВозмещенияПВЗ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаВознагражденияWB</dataPath>
+		<expression>Сумма(СуммаВознагражденияWB)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаВознагражденияСПродаж</dataPath>
+		<expression>Сумма(СуммаВознагражденияСПродаж)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаИзмененияСрокаПеречисления</dataPath>
+		<expression>Сумма(СуммаИзмененияСрокаПеречисления)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКомпенсацииПлатежныхУслуг</dataPath>
+		<expression>Сумма(СуммаКомпенсацииПлатежныхУслуг)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКомпенсацииСкидкиЛояльности</dataPath>
+		<expression>Сумма(СуммаКомпенсацииСкидкиЛояльности)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКорректировкиВознагражденияWB</dataPath>
+		<expression>Сумма(СуммаКорректировкиВознагражденияWB)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКПеречислениюПродавцу</dataPath>
+		<expression>Сумма(СуммаКПеречислениюПродавцу)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаНДСВознагражденияWB</dataPath>
+		<expression>Сумма(СуммаНДСВознагражденияWB)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаСкидкиСофинансирования</dataPath>
+		<expression>Сумма(СуммаСкидкиСофинансирования)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаУдержаний</dataPath>
+		<expression>Сумма(СуммаУдержаний)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаУдержанияЗаБаллы</dataPath>
+		<expression>Сумма(СуммаУдержанияЗаБаллы)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаУчастияВЛояльности</dataPath>
+		<expression>Сумма(СуммаУчастияВЛояльности)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаХранения</dataPath>
+		<expression>Сумма(СуммаХранения)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаШтрафов</dataPath>
+		<expression>Сумма(СуммаШтрафов)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаРеализацииWB</dataPath>
+		<expression>Среднее(ЦенаРеализацииWB)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаРозничная</dataPath>
+		<expression>Среднее(ЦенаРозничная)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаРозничнаяСоСкидкой</dataPath>
+		<expression>Среднее(ЦенаРозничнаяСоСкидкой)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаДоставки</dataPath>
+		<expression>Сумма(СуммаДоставки)</expression>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АртикулWB</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>БанкЭквайер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидыЛогистикиШтрафов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаВремяЗаказа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаВремяПродажи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОперации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Заказ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдАкцииПродавца</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдЗаказа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ИдКорзиныЗаказа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ИдКороба</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ИдОфисаДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдПодменногоАртикула</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдПоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдПромокода</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдРазмера</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ИдСборочногоЗадания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдСкидкиЛояльности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИдСтроки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ИННПартнера</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КарточкаТовара</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>КодМаркировки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоВозврата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоДоставок</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КонецДействияФиксации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НаименованиеСклада</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НачалоДействияФиксации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерСтроки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>НомерТаможеннойДекларации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбоснованиеДляОплаты</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОперацииНаПриемке</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ОрганизаторПеревозки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ОфисДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Партнер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Поставка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПризнакB2BПродажи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПризнакПлатнойДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ПроцентАгентскогоНДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентДополнительнойСкидкиАкции</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентИтоговойСогласованнойСкидки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентИтоговыйКВВ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентКВВ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентКВВБазовый</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентКомпенсацииПлатежныхУслуг</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентОптовойСкидкиДляБизнеса</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентПлатформеннойСкидки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентПродуктовогоДисконта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентПромокода</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентСкидкиWibes</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентСкидкиЗаПромокод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентСкидкиЛояльности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентСкидкиПодменногоАртикула</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентСниженияКВВЗаАкцию</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентСниженияКВВЗаРейтинг</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Размер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Склад</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>СпособПродажи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>СтикерМП</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтранаПродажи</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВозмещенияИздержек</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВозмещенияПВЗ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВознагражденияWB</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВознагражденияСПродаж</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаИзмененияСрокаПеречисления</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаКПеречислениюПродавцу</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаКомпенсацииПлатежныхУслуг</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаКомпенсацииСкидкиЛояльности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаКорректировкиВознагражденияWB</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаНДСВознагражденияWB</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаСкидкиСофинансирования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаУдержаний</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаУдержанияЗаБаллы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаУчастияВЛояльности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаХранения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаШтрафов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипКоробов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипПлатежныхУслуг</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УслугиДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФиксированныйКоэффициентСклада</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаРеализацииWB</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаРозничная</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаРозничнаяСоСкидкой</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Штрихкод</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

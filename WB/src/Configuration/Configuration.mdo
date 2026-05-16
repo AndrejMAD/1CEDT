@@ -84,5 +84,6 @@
   <enums>Enum.ТипыМедиафайлов</enums>
   <enums>Enum.ТипыПоставки</enums>
   <enums>Enum.ТипыСкладов</enums>
+  <reports>Report.ОтчетРеализации</reports>
   <dataProcessors>DataProcessor.АгентAI</dataProcessors>
 </mdclass:Configuration>
