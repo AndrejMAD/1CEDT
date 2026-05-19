@@ -617,6 +617,32 @@
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
       <id>5</id>
+      <items xsi:type="form:Button">
+        <name>СписокПерезаполнить</name>
+        <id>63</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокПерезаполнитьРасширеннаяПодсказка</name>
+          <id>64</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.Перезаполнить</commandName>
+        <buttonImportance>Normal</buttonImportance>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
@@ -827,6 +853,23 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
     <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>Перезаполнить</name>
+    <title>
+      <key>ru</key>
+      <value>Перезаполнить</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Перезаполнить</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2aa4926-4f0f-4f86-a57b-e9ad7c6132da">
+  <producedTypes>
+    <selectionType typeId="76ee608a-2220-407a-ba4e-4626ce85b86f" valueTypeId="3e9199b3-8ff8-4cef-a147-c0dd91ab2d6e"/>
+    <listType typeId="a45ceb13-e617-4f45-b74c-e8107b950515" valueTypeId="aff70c75-e5d0-4e27-8fee-12cccfb3ef97"/>
+    <managerType typeId="db78d49d-ea1b-4592-ad55-7ade97e3960d" valueTypeId="53c6b3a9-ad63-40dd-b3d8-f6385563bad9"/>
+    <recordSetType typeId="6525497f-2d68-432b-b270-f44229471a05" valueTypeId="04017d78-f873-4c10-bc66-227528479089"/>
+    <recordKeyType typeId="75ab2471-1b46-4a80-8327-a643b4cc6adf" valueTypeId="e97d71aa-a603-4eb5-91cf-4b79857cd402"/>
+    <recordType typeId="0610f4f8-893f-4336-9028-da3d5bc5f14c" valueTypeId="63c53dbd-42d0-4d62-b776-02e6708e326b"/>
+  </producedTypes>
+  <name>ДоходыИРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы и расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="78059a97-e5ba-4fa5-8f36-51bd1a28ba54">
+    <name>СуммаДохода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма дохода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="b631881a-fcb1-4ad2-81b5-95826d8005b3">
+    <name>СуммаРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма расхода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7c7d1b8e-5106-451e-8ddf-339e1c170b14">
+    <name>Продавец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продавец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продавцы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="72e0e1c2-117d-416d-9ea7-22f523f9a483">
+    <name>КарточкаТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка товара</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КарточкиТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="24382583-9818-478a-912d-b9ece4db27d4">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РазмерыКарточекТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="092816fe-e9ca-4e54-a046-cb3109229b0f">
+    <name>ЗаказПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ покупателя</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказыПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9ec8b55d-4b1f-48fb-b693-d6651f7f4532">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

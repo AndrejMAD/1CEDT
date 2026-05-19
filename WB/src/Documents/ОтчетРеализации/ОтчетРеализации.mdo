@@ -71,6 +71,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultListForm>Document.ОтчетРеализации.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="368024ad-5eab-450b-a8a7-f75ae35b77e6">

@@ -74,6 +74,7 @@
   <catalogs>Catalog.РазмерыКарточекТоваров</catalogs>
   <catalogs>Catalog.Регионы</catalogs>
   <catalogs>Catalog.СкладыWB</catalogs>
+  <catalogs>Catalog.СтатьиДоходовИРасходов</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <documents>Document.ЗаказыПокупателей</documents>
   <documents>Document.ОтчетРеализации</documents>
@@ -86,4 +87,5 @@
   <enums>Enum.ТипыСкладов</enums>
   <reports>Report.ОтчетРеализации</reports>
   <dataProcessors>DataProcessor.АгентAI</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
 </mdclass:Configuration>
