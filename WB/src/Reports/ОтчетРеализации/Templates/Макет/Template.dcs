@@ -360,6 +360,10 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаКВВ</dataPath>
+			<field>СуммаКВВ</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ОтчетРеализацииДетализация.НомерСтроки КАК НомерСтроки,
@@ -448,7 +452,8 @@
 	ОтчетРеализацииДетализация.Заказ КАК Заказ,
 	ОтчетРеализации.Дата КАК Дата,
 	ОтчетРеализацииДетализация.Статья КАК Статья,
-	ОтчетРеализации.Ссылка КАК ОтчетРеализации
+	ОтчетРеализации.Ссылка КАК ОтчетРеализации,
+	ОтчетРеализацииДетализация.СуммаКВВ КАК СуммаКВВ
 ИЗ
 	Документ.ОтчетРеализации.Детализация КАК ОтчетРеализацииДетализация
 		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ОтчетРеализации КАК ОтчетРеализации
@@ -545,6 +550,10 @@
 	<totalField>
 		<dataPath>ЦенаРозничнаяСоСкидкой</dataPath>
 		<expression>Сумма(ЦенаРозничнаяСоСкидкой)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКВВ</dataPath>
+		<expression>Сумма(СуммаКВВ)</expression>
 	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -767,7 +776,7 @@
 					<dcsset:field>СуммаИзмененияСрокаПеречисления</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаКПеречислениюПродавцу</dcsset:field>
+					<dcsset:field>СуммаКВВ</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаКомпенсацииПлатежныхУслуг</dcsset:field>
@@ -777,6 +786,9 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаКорректировкиВознагражденияWB</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаКПеречислениюПродавцу</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаНДСВознагражденияWB</dcsset:field>
