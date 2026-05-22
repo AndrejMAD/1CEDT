@@ -350,6 +350,16 @@
 			<dataPath>Статья</dataPath>
 			<field>Статья</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтчетРеализации</dataPath>
+			<field>ОтчетРеализации</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет реализации</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ОтчетРеализацииДетализация.НомерСтроки КАК НомерСтроки,
@@ -437,7 +447,8 @@
 	ОтчетРеализацииДетализация.Штрихкод КАК Штрихкод,
 	ОтчетРеализацииДетализация.Заказ КАК Заказ,
 	ОтчетРеализации.Дата КАК Дата,
-	ОтчетРеализацииДетализация.Статья КАК Статья
+	ОтчетРеализацииДетализация.Статья КАК Статья,
+	ОтчетРеализации.Ссылка КАК ОтчетРеализации
 ИЗ
 	Документ.ОтчетРеализации.Детализация КАК ОтчетРеализацииДетализация
 		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ОтчетРеализации КАК ОтчетРеализации
@@ -523,11 +534,26 @@
 		<dataPath>СуммаДоставки</dataPath>
 		<expression>Сумма(СуммаДоставки)</expression>
 	</totalField>
+	<totalField>
+		<dataPath>ЦенаРеализацииWB</dataPath>
+		<expression>Сумма(ЦенаРеализацииWB)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаРозничная</dataPath>
+		<expression>Сумма(ЦенаРозничная)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаРозничнаяСоСкидкой</dataPath>
+		<expression>Сумма(ЦенаРозничнаяСоСкидкой)</expression>
+	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
 		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтчетРеализации</dcsset:field>
+				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>АртикулWB</dcsset:field>
 				</dcsset:item>
@@ -778,9 +804,6 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ТипПлатежныхУслуг</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>УслугиДоставки</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ФиксированныйКоэффициентСклада</dcsset:field>
