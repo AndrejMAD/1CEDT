@@ -342,6 +342,14 @@
 			<dataPath>Заказ</dataPath>
 			<field>Заказ</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статья</dataPath>
+			<field>Статья</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ОтчетРеализацииДетализация.НомерСтроки КАК НомерСтроки,
@@ -427,9 +435,13 @@
 	ОтчетРеализацииДетализация.ЦенаРозничная КАК ЦенаРозничная,
 	ОтчетРеализацииДетализация.ЦенаРозничнаяСоСкидкой КАК ЦенаРозничнаяСоСкидкой,
 	ОтчетРеализацииДетализация.Штрихкод КАК Штрихкод,
-	ОтчетРеализацииДетализация.Заказ КАК Заказ
+	ОтчетРеализацииДетализация.Заказ КАК Заказ,
+	ОтчетРеализации.Дата КАК Дата,
+	ОтчетРеализацииДетализация.Статья КАК Статья
 ИЗ
-	Документ.ОтчетРеализации.Детализация КАК ОтчетРеализацииДетализация</query>
+	Документ.ОтчетРеализации.Детализация КАК ОтчетРеализацииДетализация
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ОтчетРеализации КАК ОтчетРеализации
+		ПО ОтчетРеализацииДетализация.Ссылка = ОтчетРеализации.Ссылка</query>
 	</dataSet>
 	<totalField>
 		<dataPath>Количество</dataPath>
@@ -442,74 +454,6 @@
 	<totalField>
 		<dataPath>КоличествоДоставок</dataPath>
 		<expression>Сумма(КоличествоДоставок)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентАгентскогоНДС</dataPath>
-		<expression>Среднее(ПроцентАгентскогоНДС)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентДополнительнойСкидкиАкции</dataPath>
-		<expression>Среднее(ПроцентДополнительнойСкидкиАкции)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентИтоговойСогласованнойСкидки</dataPath>
-		<expression>Среднее(ПроцентИтоговойСогласованнойСкидки)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентИтоговыйКВВ</dataPath>
-		<expression>Среднее(ПроцентИтоговыйКВВ)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентКВВ</dataPath>
-		<expression>Среднее(ПроцентКВВ)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентКВВБазовый</dataPath>
-		<expression>Среднее(ПроцентКВВБазовый)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентКомпенсацииПлатежныхУслуг</dataPath>
-		<expression>Среднее(ПроцентКомпенсацииПлатежныхУслуг)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентОптовойСкидкиДляБизнеса</dataPath>
-		<expression>Среднее(ПроцентОптовойСкидкиДляБизнеса)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентПлатформеннойСкидки</dataPath>
-		<expression>Среднее(ПроцентПлатформеннойСкидки)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентПродуктовогоДисконта</dataPath>
-		<expression>Среднее(ПроцентПродуктовогоДисконта)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентПромокода</dataPath>
-		<expression>Среднее(ПроцентПромокода)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентСкидкиWibes</dataPath>
-		<expression>Среднее(ПроцентСкидкиWibes)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентСкидкиЗаПромокод</dataPath>
-		<expression>Среднее(ПроцентСкидкиЗаПромокод)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентСкидкиЛояльности</dataPath>
-		<expression>Среднее(ПроцентСкидкиЛояльности)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентСкидкиПодменногоАртикула</dataPath>
-		<expression>Среднее(ПроцентСкидкиПодменногоАртикула)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентСниженияКВВЗаАкцию</dataPath>
-		<expression>Среднее(ПроцентСниженияКВВЗаАкцию)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПроцентСниженияКВВЗаРейтинг</dataPath>
-		<expression>Среднее(ПроцентСниженияКВВЗаРейтинг)</expression>
 	</totalField>
 	<totalField>
 		<dataPath>СуммаВозмещенияИздержек</dataPath>
@@ -574,18 +518,6 @@
 	<totalField>
 		<dataPath>СуммаШтрафов</dataPath>
 		<expression>Сумма(СуммаШтрафов)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ЦенаРеализацииWB</dataPath>
-		<expression>Среднее(ЦенаРеализацииWB)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ЦенаРозничная</dataPath>
-		<expression>Среднее(ЦенаРозничная)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ЦенаРозничнаяСоСкидкой</dataPath>
-		<expression>Среднее(ЦенаРозничнаяСоСкидкой)</expression>
 	</totalField>
 	<totalField>
 		<dataPath>СуммаДоставки</dataPath>
@@ -864,6 +796,12 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Штрихкод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Статья</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:outputParameters>

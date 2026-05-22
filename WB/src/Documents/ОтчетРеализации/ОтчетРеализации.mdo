@@ -474,6 +474,35 @@
       <key>ru</key>
       <value>Детализация</value>
     </synonym>
+    <attributes uuid="da22be92-383e-42f2-b5d0-fc4af149c452">
+      <name>ГруппаСтатьи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа статьи</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДоходовИРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9a38a4d6-2734-4dac-ab46-677e8384e904">
+      <name>Статья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДоходовИРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="ab6ac874-21ba-4587-a91b-d6fd951fb75f">
       <name>АртикулWB</name>
       <synonym>
@@ -1818,6 +1847,7 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>10</precision>
+          <scale>2</scale>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>

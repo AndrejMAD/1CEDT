@@ -29,6 +29,16 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="04d5c121-e28b-4b73-8474-57cbb1926384">
+      <name>БезГруппы</name>
+      <description>Без группы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="8bb63fba-7c0e-4fcd-870c-2880fdf51c80">
