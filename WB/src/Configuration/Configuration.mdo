@@ -87,5 +87,6 @@
   <enums>Enum.ТипыСкладов</enums>
   <reports>Report.ОтчетРеализации</reports>
   <dataProcessors>DataProcessor.АгентAI</dataProcessors>
+  <informationRegisters>InformationRegister.СтатьиДРВЗаказах</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
 </mdclass:Configuration>

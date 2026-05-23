@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de1f318b-ed32-46ed-a459-03377deee102">
+  <producedTypes>
+    <selectionType typeId="b436372b-e4ec-4d75-9e6d-fa9799eedd01" valueTypeId="5c6fdc56-3a90-4f91-8814-0e840e8d3ec6"/>
+    <listType typeId="1ac7b1fc-465b-46fe-a0e0-750f30aba955" valueTypeId="f982248c-129e-46bb-bf37-bd1fb9e20b07"/>
+    <managerType typeId="67f7f5d2-2efc-4383-b9bb-4f731a6bce1c" valueTypeId="726c8249-078b-41f3-abc8-b14677b13a9b"/>
+    <recordSetType typeId="36fd80cc-e9ee-4810-85c8-b4f7ff4a6089" valueTypeId="eceadbd5-8e35-4856-928c-053233413cb3"/>
+    <recordKeyType typeId="61864ada-2876-49bb-85be-40a1499350c6" valueTypeId="fccea099-7033-4ecc-96ab-916bae7adbab"/>
+    <recordType typeId="07c0a7f9-fb0a-4d05-b0aa-babb2eef2093" valueTypeId="fdb7ff57-7576-48ed-b4d2-4fc30d1fb695"/>
+    <recordManagerType typeId="0b64b357-21b9-4088-a0d9-1c270cafd13d" valueTypeId="50c3da2f-96c6-4b74-b51c-156948eed416"/>
+  </producedTypes>
+  <name>СтатьиДРВЗаказах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи ДРВЗаказах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="86e26ca2-7dbd-42f1-90ea-b90c32c846fd">
+    <name>ЗаказОтменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ отменен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f5d8693c-58bb-4186-9666-d346c2070888">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
