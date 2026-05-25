@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f2f713e-58b4-46ef-a2bb-927b496a3f14">
+  <producedTypes>
+    <objectType typeId="587ce009-e1dc-4334-8d6c-538cd5730421" valueTypeId="49d6c528-20aa-4c13-802c-157a1f7ca8bf"/>
+    <refType typeId="6a4bafdd-28cf-4b30-aad1-41d2f721b212" valueTypeId="1195f0f7-6134-482f-bad4-95c2882d2ede"/>
+    <selectionType typeId="cb11fd00-f735-4338-b829-fe9f767a8fa4" valueTypeId="a854afdb-f92a-42b4-bd24-25085eb7dc86"/>
+    <listType typeId="cbcee574-7012-4a00-81ab-6c80b9893785" valueTypeId="cb4c1f10-0a00-4667-b9b4-34501d64a682"/>
+    <managerType typeId="d17cf92b-50b4-4557-bc63-647e28626018" valueTypeId="77cd551c-2265-4862-86c6-94cd3f33f474"/>
+  </producedTypes>
+  <name>СтатьиWB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи WB</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиWB.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатьиWB.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="04d5c121-e28b-4b73-8474-57cbb1926384">
+      <name>БезГруппы</name>
+      <description>Без группы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f2f713e-58b4-46ef-a2bb-927b496a3f14">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f056d94-0f7b-43b6-8125-7486ebc6f2f6">
   <producedTypes>
-    <objectType typeId="587ce009-e1dc-4334-8d6c-538cd5730421" valueTypeId="49d6c528-20aa-4c13-802c-157a1f7ca8bf"/>
-    <refType typeId="6a4bafdd-28cf-4b30-aad1-41d2f721b212" valueTypeId="1195f0f7-6134-482f-bad4-95c2882d2ede"/>
-    <selectionType typeId="cb11fd00-f735-4338-b829-fe9f767a8fa4" valueTypeId="a854afdb-f92a-42b4-bd24-25085eb7dc86"/>
-    <listType typeId="cbcee574-7012-4a00-81ab-6c80b9893785" valueTypeId="cb4c1f10-0a00-4667-b9b4-34501d64a682"/>
-    <managerType typeId="d17cf92b-50b4-4557-bc63-647e28626018" valueTypeId="77cd551c-2265-4862-86c6-94cd3f33f474"/>
+    <objectType typeId="e3d7dfed-4f05-4cbf-9947-5694fcc7645b" valueTypeId="5396a430-7d26-4817-856e-f0899e422597"/>
+    <refType typeId="53d887a4-36c5-4417-aaa4-cf024b276ecd" valueTypeId="d3b828a6-ee43-429c-aa79-47e8bb609e77"/>
+    <selectionType typeId="2f6062b2-eb5b-465d-b5bf-cc0792d2aab4" valueTypeId="1ae8a72d-01d2-439f-a133-ce717618e6f2"/>
+    <listType typeId="2717ed84-6001-4e71-9c52-3a10570a4438" valueTypeId="ffba281e-c53b-4eae-b985-ba96f7b97b2b"/>
+    <managerType typeId="f35aa766-4d28-4c71-9031-495a89db3b05" valueTypeId="eee12e4d-0c8d-4722-9e04-1264b247866e"/>
   </producedTypes>
   <name>СтатьиДоходовИРасходов</name>
   <synonym>
@@ -19,51 +19,25 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>100</descriptionLength>
+  <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="04d5c121-e28b-4b73-8474-57cbb1926384">
-      <name>БезГруппы</name>
-      <description>Без группы</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-      <isFolder>true</isFolder>
-    </items>
-  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="8bb63fba-7c0e-4fcd-870c-2880fdf51c80">
-    <name>Доход</name>
+  <attributes uuid="a343dc3a-908b-44eb-a2f2-48279e4ca978">
+    <name>ВидСтатьи</name>
     <synonym>
       <key>ru</key>
-      <value>Доход</value>
+      <value>Вид статьи</value>
     </synonym>
     <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="7dc9622e-6559-4812-8c34-ace769939673">
-    <name>Расход</name>
-    <synonym>
-      <key>ru</key>
-      <value>Расход</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
+      <types>EnumRef.ВидыСтатей</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

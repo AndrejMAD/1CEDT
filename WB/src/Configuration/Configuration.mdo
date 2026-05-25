@@ -74,12 +74,14 @@
   <catalogs>Catalog.РазмерыКарточекТоваров</catalogs>
   <catalogs>Catalog.Регионы</catalogs>
   <catalogs>Catalog.СкладыWB</catalogs>
+  <catalogs>Catalog.СтатьиWB</catalogs>
   <catalogs>Catalog.СтатьиДоходовИРасходов</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <documents>Document.ЗаказыПокупателей</documents>
   <documents>Document.ОтчетРеализации</documents>
   <documents>Document.Поставки</documents>
   <enums>Enum.ВидыОтчетаРеализации</enums>
+  <enums>Enum.ВидыСтатей</enums>
   <enums>Enum.СтатусыПоставки</enums>
   <enums>Enum.ТипыHTTPЗапроса</enums>
   <enums>Enum.ТипыМедиафайлов</enums>
