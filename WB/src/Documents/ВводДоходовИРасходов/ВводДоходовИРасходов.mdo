@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97116783-1a92-4de7-ae1e-31af77e20573">
+  <producedTypes>
+    <objectType typeId="ab87e57f-a619-4475-ade0-fc1c2b2142bc" valueTypeId="12f4e7f3-6fc8-481a-a8d8-f31389bfc494"/>
+    <refType typeId="fa6a2f65-ded5-4bdb-ba61-58f652d9a042" valueTypeId="1b11896f-0974-471a-a408-27171758fc0a"/>
+    <selectionType typeId="33e8f77e-c210-417d-a109-a5e0e81a1872" valueTypeId="7d4fc333-178b-4fca-aba8-944d2913bfc7"/>
+    <listType typeId="4d6d2189-f584-4c46-8562-94b8a894e4ea" valueTypeId="8e46e372-6067-4725-ab65-26557769e4e2"/>
+    <managerType typeId="4049fe0c-3ed6-43b5-836b-7731ad8ff35b" valueTypeId="4236c552-70b2-441b-ad63-78c98c90d090"/>
+  </producedTypes>
+  <name>ВводДоходовИРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод доходов и расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВводДоходовИРасходов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d70ffc1e-564d-42cd-9dfa-fcb7e202650e">
+    <name>Продавец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продавец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продавцы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e2b693b4-cb0b-4600-8162-2237f7bc7902">
+    <producedTypes>
+      <objectType typeId="51f160db-5d1e-4fb6-b13b-88eca53e96a6" valueTypeId="96a34231-04ab-4874-a98c-52781944f8ea"/>
+      <rowType typeId="01bed5e7-d9dc-4109-a90a-029736bdfab6" valueTypeId="214ba121-e010-41e3-bd9b-d93f42134761"/>
+    </producedTypes>
+    <name>ДоходыИРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы и расходы</value>
+    </synonym>
+    <attributes uuid="a84e9b84-b222-46cb-b14d-a5dee00f240d">
+      <name>ЗаказПокупателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ покупателя</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаказыПокупателей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="57ba011f-0736-438f-a0e1-4e5fa3f59637">
+      <name>КарточкаТовара</name>
+      <synonym>
+        <key>ru</key>
+        <value>Карточка товара</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КарточкиТоваров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ВводДоходовИРасходов.Attribute.Продавец</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b181a9b-3387-454f-b328-9354a5604c5b">
+      <name>Размер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РазмерыКарточекТоваров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ВводДоходовИРасходов.TabularSection.ДоходыИРасходы.Attribute.КарточкаТовара</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d0438aa4-4e80-4cbd-a100-4367a4617f4e">
+      <name>Статья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДоходовИРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cf52414a-a21b-43c3-adbb-39576142374f">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5694af3b-44ff-4056-93e9-76d2a4992c62">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

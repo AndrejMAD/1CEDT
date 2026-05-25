@@ -77,6 +77,7 @@
   <catalogs>Catalog.СтатьиWB</catalogs>
   <catalogs>Catalog.СтатьиДоходовИРасходов</catalogs>
   <catalogs>Catalog.Страны</catalogs>
+  <documents>Document.ВводДоходовИРасходов</documents>
   <documents>Document.ЗаказыПокупателей</documents>
   <documents>Document.ОтчетРеализации</documents>
   <documents>Document.Поставки</documents>
@@ -87,6 +88,7 @@
   <enums>Enum.ТипыМедиафайлов</enums>
   <enums>Enum.ТипыПоставки</enums>
   <enums>Enum.ТипыСкладов</enums>
+  <reports>Report.ОтчетДоходыИРасходы</reports>
   <reports>Report.ОтчетРеализации</reports>
   <dataProcessors>DataProcessor.АгентAI</dataProcessors>
   <informationRegisters>InformationRegister.СтатьиДРВЗаказах</informationRegisters>
