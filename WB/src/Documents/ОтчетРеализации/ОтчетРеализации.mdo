@@ -474,35 +474,6 @@
       <key>ru</key>
       <value>Детализация</value>
     </synonym>
-    <attributes uuid="da22be92-383e-42f2-b5d0-fc4af149c452">
-      <name>ГруппаСтатьи</name>
-      <synonym>
-        <key>ru</key>
-        <value>Группа статьи</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.СтатьиДоходовИРасходов</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="9a38a4d6-2734-4dac-ab46-677e8384e904">
-      <name>Статья</name>
-      <synonym>
-        <key>ru</key>
-        <value>Статья</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.СтатьиДоходовИРасходов</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="ab6ac874-21ba-4587-a91b-d6fd951fb75f">
       <name>АртикулWB</name>
       <synonym>
@@ -552,6 +523,21 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da22be92-383e-42f2-b5d0-fc4af149c452">
+      <name>ГруппаСтатьи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа статьи</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДоходовИРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -1004,24 +990,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="7a16717f-4713-4311-9f1d-b00b108bd893">
-      <name>ОперацииНаПриемке</name>
-      <synonym>
-        <key>ru</key>
-        <value>Операции на приемке</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>2</scale>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="def5f6bd-db68-473d-bfaa-a80e3c432cc8">
       <name>ОрганизаторПеревозки</name>
       <synonym>
@@ -1466,6 +1434,20 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="9a38a4d6-2734-4dac-ab46-677e8384e904">
+      <name>Статья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДоходовИРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="62da226a-175c-413b-9a9d-ad1e72bd0ffb">
       <name>СтикерМП</name>
       <synonym>
@@ -1700,6 +1682,24 @@
       <synonym>
         <key>ru</key>
         <value>Сумма НДСВознаграждения WB</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7a16717f-4713-4311-9f1d-b00b108bd893">
+      <name>СуммаПриемки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма приемки</value>
       </synonym>
       <type>
         <types>Number</types>
