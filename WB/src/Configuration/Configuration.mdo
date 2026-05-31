@@ -91,6 +91,7 @@
   <reports>Report.ОтчетДоходыИРасходы</reports>
   <reports>Report.ОтчетРеализации</reports>
   <dataProcessors>DataProcessor.АгентAI</dataProcessors>
+  <dataProcessors>DataProcessor.ПоставкиТест</dataProcessors>
   <informationRegisters>InformationRegister.СтатьиДРВЗаказах</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
 </mdclass:Configuration>

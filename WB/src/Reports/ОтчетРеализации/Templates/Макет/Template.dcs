@@ -127,7 +127,7 @@
 			<field>ОбоснованиеДляОплаты</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ОперацииНаПриемке</dataPath>
+			<dataPath>СуммаПриемки</dataPath>
 			<field>СуммаПриемки</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -555,6 +555,10 @@
 		<dataPath>СуммаКВВ</dataPath>
 		<expression>Сумма(СуммаКВВ)</expression>
 	</totalField>
+	<totalField>
+		<dataPath>СуммаПриемки</dataPath>
+		<expression>Сумма(СуммаПриемки)</expression>
+	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
@@ -663,9 +667,6 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ОбоснованиеДляОплаты</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ОперацииНаПриемке</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:use>false</dcsset:use>
@@ -792,6 +793,9 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаНДСВознагражденияWB</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПриемки</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаСкидкиСофинансирования</dcsset:field>

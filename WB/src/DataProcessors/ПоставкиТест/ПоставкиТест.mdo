@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="582b43f4-6da8-4cfb-befd-ac2b9196b974">
+  <producedTypes>
+    <objectType typeId="2e202348-23bf-4011-937a-ca36b109efb5" valueTypeId="f3822cfc-0e73-4f7e-a2fe-57309fd55a8b"/>
+    <managerType typeId="dcf81f32-b942-486d-b374-943e7b487147" valueTypeId="8bec1e76-4a8d-4fc9-a168-c64e1b3fbc56"/>
+  </producedTypes>
+  <name>ПоставкиТест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставки тест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоставкиТест.Form.Форма</defaultForm>
+  <attributes uuid="02830e61-59bf-4d7b-8e80-fceab2b1bcf7">
+    <name>ИдПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид поставки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c47f6210-8544-4002-b54b-afa0b2b721ef">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
