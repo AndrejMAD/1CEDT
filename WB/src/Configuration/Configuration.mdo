@@ -75,6 +75,7 @@
   <catalogs>Catalog.Регионы</catalogs>
   <catalogs>Catalog.СкладыWB</catalogs>
   <catalogs>Catalog.СтатьиДоходовИРасходов</catalogs>
+  <catalogs>Catalog.СтатьиКалькуляции</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <documents>Document.ЗаказыПокупателей</documents>
   <documents>Document.ОтчетРеализации</documents>
@@ -89,4 +90,5 @@
   <dataProcessors>DataProcessor.АгентAI</dataProcessors>
   <informationRegisters>InformationRegister.СтатьиДРВЗаказах</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьКарточекТоваров</accumulationRegisters>
 </mdclass:Configuration>

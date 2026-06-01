@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c41f8953-d81f-424f-8f2e-601668b2dd64">
+  <producedTypes>
+    <selectionType typeId="3a20cf2f-eb3f-4e0e-b37a-02a9fb5b1791" valueTypeId="c7f4dea8-79b2-42ab-9aa6-5075247b3c11"/>
+    <listType typeId="5f73d050-5c4f-4946-9984-5d4e17d4bd28" valueTypeId="3103d699-d9ba-4cc7-aecb-f65f595e485a"/>
+    <managerType typeId="da947df6-50c1-4965-921f-9c113a1c8597" valueTypeId="2eabf215-523a-44c6-b064-ab36bd097f48"/>
+    <recordSetType typeId="2608e5e8-9a44-4888-94a2-65e042587bb5" valueTypeId="8b8b0ed8-3e21-45b9-ac76-0c8b4c9664cb"/>
+    <recordKeyType typeId="d9d1bedb-bc6d-43bd-a706-e600ab773075" valueTypeId="11793024-4ae9-44ea-8894-2e32cc6f263a"/>
+    <recordType typeId="746d2eab-db61-45df-a168-d206920c1f74" valueTypeId="04e364bc-868e-45ac-8239-a854d8c588e9"/>
+  </producedTypes>
+  <name>СебестоимостьКарточекТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Себестоимость карточек товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0d7cc4ef-e4f5-4ecd-9c4f-956ac71d6ceb">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="94aaea01-5919-402d-a54f-26bb83fb816c">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="58284b72-f161-459a-9b13-cc00a1783037">
+    <name>Продавец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продавец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продавцы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2a2e75b7-7bc7-42f3-b001-fe9cfd8df14b">
+    <name>КарточкаТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка товара</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КарточкиТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ea10caef-bb57-4d0c-9acb-669a2edd2342">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РазмерыКарточекТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d7abd275-8226-4adb-8d3e-3af4e6c1dcd5">
+    <name>Поставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Поставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b639275d-aa5a-4d63-835c-9d5ff8ba31c9">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиКалькуляции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
