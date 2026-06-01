@@ -76,6 +76,7 @@
   <catalogs>Catalog.СкладыWB</catalogs>
   <catalogs>Catalog.СтатьиWB</catalogs>
   <catalogs>Catalog.СтатьиДоходовИРасходов</catalogs>
+  <catalogs>Catalog.СтатьиКалькуляции</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <documents>Document.ВводДоходовИРасходов</documents>
   <documents>Document.ЗаказыПокупателей</documents>
@@ -94,4 +95,5 @@
   <dataProcessors>DataProcessor.ПоставкиТест</dataProcessors>
   <informationRegisters>InformationRegister.СтатьиДРВЗаказах</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьКарточекТоваров</accumulationRegisters>
 </mdclass:Configuration>

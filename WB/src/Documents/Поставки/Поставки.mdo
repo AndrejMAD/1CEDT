@@ -66,6 +66,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultListForm>Document.Поставки.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.СебестоимостьКарточекТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="bd4d7502-6adc-473c-8737-f2db032eb8f1">
