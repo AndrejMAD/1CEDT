@@ -25,7 +25,8 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>15</precision>
+        <scale>3</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -63,6 +64,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="d7abd275-8226-4adb-8d3e-3af4e6c1dcd5">
+    <name>Поставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Поставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="2a2e75b7-7bc7-42f3-b001-fe9cfd8df14b">
     <name>КарточкаТовара</name>
     <synonym>
@@ -85,34 +100,6 @@
     </synonym>
     <type>
       <types>CatalogRef.РазмерыКарточекТоваров</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="d7abd275-8226-4adb-8d3e-3af4e6c1dcd5">
-    <name>Поставка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Поставка</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.Поставки</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="b639275d-aa5a-4d63-835c-9d5ff8ba31c9">
-    <name>Статья</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статья</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.СтатьиКалькуляции</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

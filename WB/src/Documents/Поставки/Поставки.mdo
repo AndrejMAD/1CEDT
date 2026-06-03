@@ -382,6 +382,24 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="562d4ff8-c6b7-4146-8a49-f743330510e4">
+      <name>СуммаЗакупки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма закупки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
   <tabularSections uuid="9e95f04a-8bad-4818-9020-0a1900b49eb3">
