@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdf3709f-9e22-4e6c-9759-dc8e6d9ef58e">
+  <name>Поставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СкладыWB</content>
+  <content>Document.Поставки</content>
+</mdclass:Subsystem>

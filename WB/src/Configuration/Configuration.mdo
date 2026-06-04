@@ -46,6 +46,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Поставки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Товары</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
   <commonPictures>CommonPicture.Загрузить</commonPictures>
   <commonPictures>CommonPicture.Скачать</commonPictures>
   <commonModules>CommonModule.ЗаказыПокупателейAPI</commonModules>

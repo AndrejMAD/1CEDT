@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c68ed8c0-0246-4b4f-84b2-9034a0896941">
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КарточкиТоваров</content>
+  <content>Catalog.КатегорииТоваров</content>
+  <content>Catalog.РазмерыКарточекТоваров</content>
+</mdclass:Subsystem>
