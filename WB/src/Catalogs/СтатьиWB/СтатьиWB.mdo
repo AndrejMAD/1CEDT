@@ -41,4 +41,64 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="b329d802-6cbf-43fb-8692-ef7e818ca0d4">
+    <producedTypes>
+      <objectType typeId="ab46bdae-d9bc-47ab-9688-0d089aad1329" valueTypeId="57a004e5-5acc-434f-a9b6-dd4e9b3032f4"/>
+      <rowType typeId="b78aa159-8866-4a74-b41e-85dd357e3b50" valueTypeId="a29269a4-31d6-4110-ad98-f68ed75fb4de"/>
+    </producedTypes>
+    <name>СтатьиРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статьи расходов</value>
+    </synonym>
+    <attributes uuid="5578107b-4f8d-445b-9f86-6604a152331f">
+      <name>Статья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ebb78c8b-1b80-468b-a0fc-cad099a70928">
+      <name>КолонкаСумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка сумма</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8cd67cf2-b2b4-452b-bbfd-729154e06d7a">
+      <name>КолонкаКоличество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Колонка количество</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
 </mdclass:Catalog>
