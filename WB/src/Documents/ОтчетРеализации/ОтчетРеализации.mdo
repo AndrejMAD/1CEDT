@@ -70,6 +70,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОтчетРеализации.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ОтчетРеализации.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ДоходыИРасходы</registerRecords>
   <registerRecords>AccumulationRegister.СебестоимостьКарточекТоваров</registerRecords>
@@ -461,6 +462,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f5e7b570-63e2-4d68-9373-4d86f7edf533">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -1938,6 +1948,123 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>20</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="ef64104c-16ba-4f2a-9a9a-669112144a1b">
+    <producedTypes>
+      <objectType typeId="b3d4c47d-a1d0-46c8-81f5-69923d7a5f25" valueTypeId="9937d013-12ef-4d33-895c-5a9a478fc341"/>
+      <rowType typeId="78cc13eb-4a1e-465c-b953-7d4d0756f7cf" valueTypeId="899aa697-04d0-4d29-8cfc-802c67bcb782"/>
+    </producedTypes>
+    <name>ДетализацияПоСтатьям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детализация по статьям</value>
+    </synonym>
+    <attributes uuid="c876d7ce-c82c-495f-8ae4-1b6de49c41fa">
+      <name>Поставка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поставка</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Поставки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="82cb2588-19d4-41a3-b4ad-da9da4a3e2f9">
+      <name>Заказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаказыПокупателей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c649618-edbc-4890-9272-d048a399b190">
+      <name>КарточкаТовара</name>
+      <synonym>
+        <key>ru</key>
+        <value>Карточка товара</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КарточкиТоваров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="db6a0974-d4a8-40e0-a7c9-a7fe8705ac53">
+      <name>Размер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РазмерыКарточекТоваров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cff68e5a-b031-4ca6-a2c3-e64addca3c28">
+      <name>Статья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="09a43962-1636-4312-8d6d-2a1c90d1515e">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d77c8c13-76a9-4282-a7f9-c5ba5258aa56">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>

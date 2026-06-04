@@ -77,6 +77,7 @@
   <catalogs>Catalog.СтатьиWB</catalogs>
   <catalogs>Catalog.СтатьиДоходовИРасходов</catalogs>
   <catalogs>Catalog.СтатьиКалькуляции</catalogs>
+  <catalogs>Catalog.СтатьиРасходов</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <documents>Document.ВводДоходовИРасходов</documents>
   <documents>Document.ЗаказыПокупателей</documents>
