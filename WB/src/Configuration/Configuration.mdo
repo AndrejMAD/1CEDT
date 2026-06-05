@@ -80,8 +80,6 @@
   <catalogs>Catalog.Регионы</catalogs>
   <catalogs>Catalog.СкладыWB</catalogs>
   <catalogs>Catalog.СтатьиWB</catalogs>
-  <catalogs>Catalog.СтатьиДоходовИРасходов</catalogs>
-  <catalogs>Catalog.СтатьиКалькуляции</catalogs>
   <catalogs>Catalog.СтатьиРасходов</catalogs>
   <catalogs>Catalog.Страны</catalogs>
   <documents>Document.ВводДоходовИРасходов</documents>
@@ -99,7 +97,7 @@
   <reports>Report.ОтчетРеализации</reports>
   <dataProcessors>DataProcessor.АгентAI</dataProcessors>
   <dataProcessors>DataProcessor.ПоставкиТест</dataProcessors>
-  <informationRegisters>InformationRegister.СтатьиДРВЗаказах</informationRegisters>
+  <informationRegisters>InformationRegister.СтатьиРасходовВЗаказах</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СебестоимостьКарточекТоваров</accumulationRegisters>
 </mdclass:Configuration>

@@ -9,10 +9,10 @@
     <recordType typeId="07c0a7f9-fb0a-4d05-b0aa-babb2eef2093" valueTypeId="fdb7ff57-7576-48ed-b4d2-4fc30d1fb695"/>
     <recordManagerType typeId="0b64b357-21b9-4088-a0d9-1c270cafd13d" valueTypeId="50c3da2f-96c6-4b74-b51c-156948eed416"/>
   </producedTypes>
-  <name>СтатьиДРВЗаказах</name>
+  <name>СтатьиРасходовВЗаказах</name>
   <synonym>
     <key>ru</key>
-    <value>Статьи ДРВЗаказах</value>
+    <value>Статьи расходов в заказах</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

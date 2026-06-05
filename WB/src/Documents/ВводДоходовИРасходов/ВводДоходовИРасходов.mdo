@@ -108,7 +108,7 @@
         <value>Статья</value>
       </synonym>
       <type>
-        <types>CatalogRef.СтатьиДоходовИРасходов</types>
+        <types>CatalogRef.СтатьиРасходов</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
