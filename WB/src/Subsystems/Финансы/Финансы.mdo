@@ -15,5 +15,5 @@
   <content>Report.ОтчетРеализации</content>
   <content>InformationRegister.СтатьиРасходовВЗаказах</content>
   <content>AccumulationRegister.ДоходыИРасходы</content>
-  <content>AccumulationRegister.СебестоимостьКарточекТоваров</content>
+  <content>AccumulationRegister.СебестоимостьПартий</content>
 </mdclass:Subsystem>

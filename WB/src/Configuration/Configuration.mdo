@@ -99,5 +99,5 @@
   <dataProcessors>DataProcessor.ПоставкиТест</dataProcessors>
   <informationRegisters>InformationRegister.СтатьиРасходовВЗаказах</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СебестоимостьКарточекТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьПартий</accumulationRegisters>
 </mdclass:Configuration>

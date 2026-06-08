@@ -8,10 +8,10 @@
     <recordKeyType typeId="d9d1bedb-bc6d-43bd-a706-e600ab773075" valueTypeId="11793024-4ae9-44ea-8894-2e32cc6f263a"/>
     <recordType typeId="746d2eab-db61-45df-a168-d206920c1f74" valueTypeId="04e364bc-868e-45ac-8239-a854d8c588e9"/>
   </producedTypes>
-  <name>СебестоимостьКарточекТоваров</name>
+  <name>СебестоимостьПартий</name>
   <synonym>
     <key>ru</key>
-    <value>Себестоимость карточек товаров</value>
+    <value>Себестоимость партий</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
