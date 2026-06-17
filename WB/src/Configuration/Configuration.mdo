@@ -75,6 +75,7 @@
   <catalogs>Catalog.КарточкиТоваров</catalogs>
   <catalogs>Catalog.КатегорииТоваров</catalogs>
   <catalogs>Catalog.Округа</catalogs>
+  <catalogs>Catalog.ПравилаРаспределенияЗатрат</catalogs>
   <catalogs>Catalog.Продавцы</catalogs>
   <catalogs>Catalog.РазмерыКарточекТоваров</catalogs>
   <catalogs>Catalog.Регионы</catalogs>
@@ -88,6 +89,7 @@
   <documents>Document.Поставки</documents>
   <enums>Enum.ВидыОтчетаРеализации</enums>
   <enums>Enum.ВидыСтатей</enums>
+  <enums>Enum.ПоказателиРаспределенияРасходов</enums>
   <enums>Enum.СтатусыПоставки</enums>
   <enums>Enum.ТипыHTTPЗапроса</enums>
   <enums>Enum.ТипыМедиафайлов</enums>

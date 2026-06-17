@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48ef206f-7ace-4703-b246-49c3cc527022">
+  <producedTypes>
+    <refType typeId="611dbf44-a4ab-482a-b72c-75168d4146e7" valueTypeId="61608ccb-1ffd-4afd-a51b-3178ff4b3a6f"/>
+    <listType typeId="9ea1e9d0-823b-4b32-91b2-ce1372b61441" valueTypeId="7f27a053-6832-4daa-85b5-7b26eef2dd31"/>
+    <managerType typeId="0e080998-5005-4014-9cbc-66ead6f63d39" valueTypeId="739badab-56a4-4530-b58a-981a9f598e41"/>
+  </producedTypes>
+  <name>ПоказателиРаспределенияРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели распределения расходов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9460f9f0-0946-4dd0-8f02-42a017463e85">
+    <name>КоличествоТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6fa63857-6447-4bbc-bc27-b1d4f8001612">
+    <name>ВесТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48af1cf1-2027-45e8-be6e-e90d003a531f">
+    <name>ОбъемТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем товаров</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

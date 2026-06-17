@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f57bc0e4-44d8-4689-9d53-9a7246f13cd4">
+  <producedTypes>
+    <objectType typeId="eeb6df07-0082-46e4-9a75-ce3b2b8c68d1" valueTypeId="6dc9c579-d5e7-48c6-b36f-12d6d907a4fd"/>
+    <refType typeId="eb950938-e151-4ab4-a9b8-e045f160a8d6" valueTypeId="435603be-e6b2-4347-b9b6-c4425efaaca1"/>
+    <selectionType typeId="4230fb79-d0e2-4327-a48f-c8f14676cfba" valueTypeId="f5f3a8fd-ef0c-4a1c-bd75-525ec72b9b42"/>
+    <listType typeId="0e578a2f-434a-4b3b-b602-545e10adbeaa" valueTypeId="4b233020-7686-43d4-b1a8-537679a8950c"/>
+    <managerType typeId="b30e24d4-4ffe-47bc-917f-bbf29f134552" valueTypeId="0eff7f96-62e7-4364-9312-714835ed1fb6"/>
+  </producedTypes>
+  <name>ПравилаРаспределенияЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила распределения затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПравилаРаспределенияЗатрат.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПравилаРаспределенияЗатрат.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6656003b-98e9-4893-99a5-3e3f0a2183ef">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПоказателиРаспределенияРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
